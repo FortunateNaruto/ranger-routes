@@ -1,0 +1,205 @@
+:::tracker{species="Scorbunny" generation=8  baseStats="[[50, 71, 40, 40, 40, 69]]"}
+:::
+:::tracker{species="Vulpix" generation=8 baseStats="[[38, 41, 40, 50, 65, 65], [73, 76, 75, 81, 100, 100]]"}
+7:
+   7 -> 0,   0,   0,   0,    0,   0
+   8 -> 0,   0,   0,   0,    1,   2
+   9 -> 0,   0,   1,   0,    2,   3
+   10 -> 0,   1,   1,   0,   2,   3,
+   11 -> 0,   2,   1,   0,   2,   4,
+   12 -> 0,   2,   1,   0,   4,   4,
+   13 -> 0,   3,   1,   1,   4,   5,
+   14 -> 0,   3,   1,   2,   7,   5,
+   15 -> 0,   3,   1,   2,   9,   5,   
+   16 -> 0,   3,   1,   2,   11,   6,
+   17 -> 0,   4,   3,   2,   11,   6,
+   18 -> 0,   6,   3,   2,   11,   8,
+   19 -> 0,   9,   3,   2,   11,   9,
+   20 -> 0,   1,   3,   2,   11,   10,
+   21 -> 0,   1,   5,   4,   12,   11,
+   22 -> 0,   11,   5,   4,   14,   13,
+   23 -> 0,   14,   5,   4,   14,   17,
+   24 -> 0,   14,   5,   4,   14,   17,
+8:
+   8 -> 0,   0,   0,   0,   0,   0,   
+   9 -> 0,   0,   0,   0,   1,   3,   
+   10 -> 0,   0,   1,   0,   2,   3,   
+   11 -> 0,   1,   1,   0,   2,   4,   
+   11 -> 0,   1,   1,   0,   2,   4,
+   13 -> 0,   3,   1,   1,   4,   5,   
+   14 -> 0,   3,   1,   2,   6,   5,   
+   15 -> 0,   3,   1,   2,   9,   5,   
+   16 -> 0,   3,   1,   2,   11,   6,
+   17 -> 0,   4,   3,   2,   11,   6,   
+   18 -> 0,   6,   3,   2,   11,   8,   
+   19 -> 0,   8,   3,   2,   11,   9,   
+   20 -> 0,   11,   3,   2,   11,   10,   
+   21 -> 0,   11,   5,   4,   12,   11,   
+   22 -> 0,   11,   5,   4,   14,   13,   
+   23 -> 0,   14,   5,   4,   14,   17,   
+   24 -> 0,   14,   5,   4,   14,   17,   
+9:
+   9 -> 0,   0,   0,   0,   0,   0,   
+   10 -> 0,   0,   0,   0,   2,   3,   
+   11 -> 0,   1,   1,   0,   2,   3,   
+   12 -> 0,   2,   1,   0,   4,   4,   
+   13 -> 0,   3,   1,   0,   4,   5,   
+   14 -> 0,   3,   1,   2,   5,   5,   
+   15 -> 0,   3,   1,   2,   9,   5,   
+   16 -> 0,   3,   1,   2,   11,   6,   
+   17 -> 0,   4,   2,   2,   11,   6,   
+   18 -> 0,   6,   3,   2,   11,   8,   
+   19 -> 0,   8,   3,   2,   11,   9,   
+   20 -> 0,   11,   3,   2,   11,   10,   
+   21 -> 0,   11,   3,   4,   12,   11,   
+   22 -> 0,   11,   3,   4,   12,   11,   
+   23 -> 0,   11,   5,   4,   14,   13,   
+   24 -> 0,   14,   5,   4,   14,   17,   
+10:
+   10 -> 0,   0,   0,   0,   0,   0,  
+   11 ->  0,   0,   1,   0,   2,   3,  
+   12 ->  0,   1,   1,   0,   2,   4,  
+   13 ->  0,   2,   1,   0,   4,   4,  
+   14 ->  0,   3,   1,   1,   5,   5,  
+   15 ->  0,   3,   1,   2,   9,   5,  
+   16 ->  0,   3,   1,   2,   9,   6,  
+   17 ->  0,   4,   2,   2,   11,   6,  
+   18 ->  0,   4,   3,   2,   11,   8,  
+   19 ->  0,   7,   3,   2,   11,   9,  
+   20 ->  0,   11,   3,   2,   11,   10,  
+   21 ->  0,   11,   3,   4,   12,   11,  
+   22 ->  0,   11,   3,   4,   12,   11,  
+   23 ->  0,   11,   5,   4,   14,   13,  
+   24 ->  0,   14,   5,   4,   14,   17,  
+:::
+
+# v3 Pokemon Sword Candyfloss
+# :info[Pokemon Sword]{color=blue}
+
+If you have any suggestions for improvements/changes, feel free to let me know! 
+Feel free to also yell at me if something is wrong. You can reach me on [**Twitter**](https://twitter.com/Retrotato)/[**Twitch**](https://www.twitch.tv/retrotato)/Discord @Retrotato
+
+Watch Retrotato's ESA Together 2020 marathon run where we go in-depth a lot about this run: [**https://www.twitch.tv/videos/588233829**](https://www.twitch.tv/videos/588233829)
+
+Additional credits for helping with development/improvements for these notes! 
+Click their names to go to their streaming-channels: 
+- [**wartab**](https://twitch.tv/wartab) 
+- [**ringo**](https://www.youtube.com/channel/UC8-0q5Uty08F8ShV60AU8TQ) 
+- [**YTreds**](https://www.youtube.com/channel/UCDkbXmyWYkdD0T9LcKggYbA/featured)
+- [**Ryziken**](https://twitch.tv/ryziken) 
+- [**Gymfreak**](https://twitch.tv/gymfreak739)
+
+Please note that this is NOT going to be faster than Any% lol
+- [**FAQ**](https://pastebin.com/TwFjhuBF)
+- [**EXP. sheet**](https://pastebin.com/bBE6Uxga)
+
+# Before the run starts
+
+Set the date to **15 / 04 (April 15th) 23:45 / 11:45 pm**
+
+- Vulpix is caught on the April 16th (overworld)
+- Minccino is caught on the 15th (grass). 
+- You start on the 15th to let midnight roll over (ending up on the 16th for Vulpix)
+- make the Wild Area salesmen next to the entrance of Motostoke sell Quick Balls. 
+- You then change the date to the **April 15th** again manually for Minccino when Vulpix is caught
+
+Images with:info[orange]{color=orange} border means they're for safety
+Things in **(parentheses)** after the Pokemon name is their speed
+
+
+
+:info[WARNING: Make sure the game is turned off before changing the date, otherwise the Quick Ball-manip will not work]{color=red}
+
+
+**Don't need to mash after ~1:15, when Rose mentions the champion. ~1:20 minute cutscene**
+
+
+# Postwick 1/3
+
+
+**Options:**
+- Text Speed        Fast
+- Battle Effects        Off
+- Battle Style        Set
+- Send to Boxes        Automatic
+- Give Nicknames    Don’t Give (press R button to go down to Autosave)
+- Autosave:        Off (can be left on but might cause lag)
+- Skip Movies:        On
+
+**Pick :info[Scorbunny]{color=orange}**
+
+:::::::trainer[Hop 1]
+  :::::pokemon[Wooloo]
+    - Tackle x3
+  :::::
+  :::::pokemon[Grooky]
+    - Ember x2-3
+  :::::
+:::::::
+# Fog Route (1/2)
+
+- 3 forced encounters, just run
+::::::trainer[Wildl ???]
+-  Mash A
+:::::::
+# Postwick 2/3
+- Go inside and talk to mum
+- Head for route 1
+# Route 1
+Catch **Wooloo (15%)** if you see one, otherwise just go for **Skwovet** or **Rookidee**
+- Prioritize **Wooloo** as it gives **more experience. Level 5+6** gives you **level 8 instantly**
+- You catch something here to also **skip Leon’s catching tutorial** on **route 2.**
+# Wedgehurst
+- Grab Rare Candy to the right of Sonia’s lab 
+
+![Rare candy](image6.png)
+
+- Say **“Of course not” (second option)** to **Hop** in the **Pokémon Center**
+- Keep your **caught Pokémon** in the party (**unless** if you caught **Nickit** or **Rookidee**)
+
+# Route 2
+:::::::trainer[Youngster Jake]
+  :::::pokemon[Skwovet]
+   :::if{source="Scorbunny" level=7 condition="atk=17"}
+   - Tackle
+   :::
+     :::if{source="Scorbunny" level=7 condition="atk=16-"}
+   - Ember
+   :::
+   :::if{source="Scorbunny" level=8 condition="atk=18"}
+   - Ember
+   :::
+   :::if{source="Scorbunny" level=8 condition="atk=17"}
+   - Tackle
+   ::: 
+  :::::
+:::::::
+:::::::trainer[Youngster Benjamin]
+  :::::pokemon[Blipbug]
+  - Ember + (Quick Attack)
+  :::::
+  :::::pokemon[Nickit]
+  - Quick Attack x2-3
+:::::::
+
+**FREE HEAL**
+:::::::trainer[Hop 2]
+  :::::pokemon[Wooloo]
+    :::if{source="Scorbunny" condition="atk=17-"}
+    - Ember (x3)
+    :::
+    - Tackle (x3)
+  :::::
+  :::::pokemon[Grookey]
+    - Ember (x2)
+  :::::
+  :::::pokemon[Rookidee]
+    - Ember + (Quick attack if no Growl)
+  :::::
+:::::::
+
+# Wild Area (1/3)
+
+**Get watts from this den if there’s a raid available and skip the following 3 dens**
+![image33](image33.png)
+![image13](image13.png)
