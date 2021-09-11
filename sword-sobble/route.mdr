@@ -524,5 +524,34 @@ Head to the market
 > - 11 Energy Roots (v)
 > - 11 Heal Powders (v)
 
-
 Leave the city east
+
+:::::::trainer[Bede]
+  :::::pokemon[Solosis]
+     - X-Sp. Atk 
+     - Water Pulse
+  :::::
+  :::::pokemon[Gothia]
+     - Water Pulse
+  :::::
+  :::::pokemon[Hatenna]
+     - Water Pulse
+  :::::
+  :::::pokemon[Ponyta]
+    :::if{source="Sobble" condition="speed=(31/4+/#)"}
+      :info[Faster]{color=blue}
+    :::
+     - Water Pulse
+    :::if{source="Sobble" condition="speed=~(31/4+/#)"}
+     ::damage[Confusion Does]{source="Sobble" special=true  evolution=1 offensive=false movePower=50 level=23 opponentLevel=22 stab=true opponentStat=32}
+    ::: 
+  :::::
+:::::::
+:::::::trainer[Worker Francis]
+  :::::pokemon[Carkol]
+     - Water Pulse
+   
+    _Do not teach Sucker Punch_
+  :::::
+:::::::
+:info[**Heal to full**]{color=yellow}
