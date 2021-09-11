@@ -475,3 +475,28 @@ Puzzle 3:
 :info[Yellow]{color=yellow}
 :info[Red]{color=red}
 :info[Blue]{color=blue}
+
+:info[Heal such that 3 Horn Attacks will knock you into desired HP for Torrent on Drednaw]{color=yellow}
+:::if{source="Sobble" condition="spatk=(x/x/20+)"}
+```
+Experimental: 
+You can go for +4 Swift on Goldeen 
+Setup the last X-Sp. Atk on Arrokuda
+Who deals slightly less damage than Goldeen and might prevent healing before the fight
+```
+:::
+:::::::trainer[Gym Leader Nessa]
+  :::::pokemon[Goldeen]{info="Goldeen is faster after using  Agility" infoColor=blue}
+     - X SpAtk x3
+     - Stall for torrent :calc[floor(hp / 3)]{source="Sobble" evolution=1 level=22}
+    :::if{source="Sobble" condition="speed=(30-/3-/x)"}
+     - X Speed last turn before kil
+    :::
+     - Swift
+     ::damage[Horn Attack does]{source="Sobble" evolution=1 special=false offensive=false movePower=65 level=21 opponentLevel=22 stab=false opponentStat=33}
+  :::::
+  :::::pokemon[Arrokuda]{info="Has Aqua Jet" infoColor=red}
+    - Swift
+     ::damage[Aqua Jet Does]{source="Sobble" evolution=1 special=false offensive=false movePower=40 level=22 opponentLevel=23 stab=true opponentStat=33}
+     ::damage[Bite Does]{source="Sobble" evolution=1 special=false offensive=false movePower=60 level=22 opponentLevel=23 stab=false opponentStat=33}
+:::::::
