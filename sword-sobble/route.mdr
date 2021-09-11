@@ -499,4 +499,30 @@ Who deals slightly less damage than Goldeen and might prevent healing before the
     - Swift
      ::damage[Aqua Jet Does]{source="Sobble" evolution=1 special=false offensive=false movePower=40 level=22 opponentLevel=23 stab=true opponentStat=33}
      ::damage[Bite Does]{source="Sobble" evolution=1 special=false offensive=false movePower=60 level=22 opponentLevel=23 stab=false opponentStat=33}
+  :::::
+  :::::pokemon[Drednaw]
+    - *Water Pulse
+     ::damage[Ranges at +4]{source="Sobble" evolution=1 special=true combatStages=4 torrent=true offensive=true healthThreshold=83 theme=error movePower=60 level=22 opponentLevel=24 stab=true opponentStat=42}
+  :::::   
 :::::::
+:::if{source="Sobble" condition="speed=~(30-/3-/x)"}
+Head west
+
+Go up the stairs and 
+
+Pickup 2 hidden X-Speeds going up the stairs before the gym 
+  - (light post far into the route)
+:::
+
+Fly to the Center and head to the restaurant
+
+Head to the market 
+
+### Shopping (Herb Seller):
+> #### Buy
+> - 11 Energy Powder
+> - 11 Energy Roots (v)
+> - 11 Heal Powders (v)
+
+
+Leave the city east
