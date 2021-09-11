@@ -324,8 +324,42 @@ The following requirements need to be met in order to one shot Eldegoss:
 
 :info[None of these requirements are optional and if you do not meet one of them, you will die]{color=red}
 
-The idea of this fight is to get hit into low HP 
+The idea of this fight is to get hit into low HP by Gossifleur and only then to attack
   - (aim for 13 HP or lower if you don’t know what to do) 
-
-By Gossifleur and only then to attack
 ::::
+::damage[Gossifleur’s Magical Leaf does]{source="Sobble" combatStages=2 effectiveness=2 special=true offensive=false movePower=60 evolution=1 level=16 opponentLevel=19 stab=true opponentStat=23}
+::::::trainer[Gym Leader Milo]
+ :::::pokemon[Gossifleur] 
+    - X-SpDef 
+    - X-SpAtk x3  
+    - [DyMax] Water Pulse
+  :::if{source="Sobble" condition="hp=(x/7-/x)"}
+    - Aim for 13 HP or lower
+  :::
+  :::if{source="Sobble" condition="hp=(x/8-19/x) || hp=(x/3-26/x) || hp=(x/29+/x)"}
+    - Aim for 14 HP or lower
+  :::
+  :::if{source="Sobble" condition="hp=(x/20-22/x) || hp=(x/27-28/x)"}
+    - Aim for 15 HP or lower
+  :::
+  :info[Stall using Pound until you are at the right HP if needed]{color=blue}
+ :::::
+ :::::pokemon[Eldegoss]
+    - [DyMax] Water Pulse
+   ::::card{theme=info}
+Ranges
+    :::if{source="Sobble" condition="spatk=(x/10-15/x)"}
+ - 10/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/16-21/4-)"}
+ - 12/16 
+    :::
+    :::if{source="Sobble" condition="spatk=(x/22-27/5-9)"}
+ - 15/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/28+/10+)"}
+ - 16/16
+    :::
+  ::::
+ :::::
+::::::
