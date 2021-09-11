@@ -336,7 +336,7 @@ The idea of this fight is to get hit into low HP by Gossifleur and only then to 
   :::if{source="Sobble" condition="hp=(x/7-/x)"}
     - Aim for 13 HP or lower
   :::
-  :::if{source="Sobble" condition="hp=(x/8-19/x) || hp=(x/3-26/x) || hp=(x/29+/x)"}
+  :::if{source="Sobble" condition="hp=(x/8-19/x) || hp=(x/23-26/x) || hp=(x/29+/x)"}
     - Aim for 14 HP or lower
   :::
   :::if{source="Sobble" condition="hp=(x/20-22/x) || hp=(x/27-28/x)"}
@@ -363,3 +363,115 @@ Ranges
   ::::
  :::::
 ::::::
+:::::::if{source="Sobble" condition="hp=(x/8+/x) && spdef=(#/12-/x)"}
+:::::card{theme=neutral}
+:::card{theme=warning}
+Advanced strategy
+:::
+   
+   -If you used 3 X-Sp. Atks 
+   
+   -Can die to Magical Leaf but are 
+   
+   -Not at the required HP, you can 
+   
+   [DyMax] Pound when at the following HP
+:::if{source="Sobble" condition="hp=(x/7-/x) && spdef=(#/12-/x)"}
+14-17
+:::
+:::if{source="Sobble" condition="hp=(x/8-19/x) || hp=(x/23-26/x) || hp=(x/29+/x) && spdef=(#/12-/x)"}
+15-18
+:::
+:::if{source="Sobble" condition="hp=(x/20-22/x) || hp=(x/27-28/x) && spdef=(6-/x/x)"}
+16-19
+:::
+:::::
+:::::::
+
+:::::::if{source="Sobble" condition="hp=(x/7-/x) && spdef=(x/13+/1+)"}
+:::::card{theme=neutral}
+:::card{theme=warning}
+Advanced strategy
+:::
+   
+   -If you used 3 X-Sp. Atks 
+   
+   -Can die to Magical Leaf but are 
+   
+   -Not at the required HP, you can 
+   
+   [DyMax] Pound when at the following HP
+
+14
+:::::
+:::::::
+:info[**Free heal**]{color=pink}
+
+Fly to the  Center
+
+Head East
+:::::trainer[Team Yell Grunt]
+ ::::pokemon[Zigzagoon]
+    - Water Pulse
+    :info[Do not learn Tearuful Look]{color=yellow}
+ ::::
+ ::::pokemon[Thievul]
+    - Water Pulse x3-5
+ ::::
+:::::
+:::::trainer[Team Yell Grunt]
+ ::::pokemon[Sableye]
+    - Water Pulse x2
+
+    _Water Gun if Disabled used turn 2_
+ ::::
+:::::
+Heal if you can die to Raboot’s Double Kick
+::damage[Raboot’s Double Kick does]{source="Sobble" otherModifier=2 evolution=1 special=false offensive=false movePower=30 level=20 opponentLevel=21 stab=false opponentStat=44}
+:::::::trainer[Pokémon Trainer Hop]
+  :::::pokemon[Wooloo]
+     - X-Sp. Atk 
+     - Water Pulse
+  :::::
+  :::::pokemon[Corvisquire]
+     - Water Pulse
+  :::::
+  :::::pokemon[Raboot]
+     - Water Pulse
+    :::if{source="Sobble" condition="speed=(x/x/18+)"}
+     :info[Usually Faster]{color=blue}
+    :::
+  :::::
+:::::::
+:info[**Free heal**]{color=pink}
+:::if{source="Sobble" condition="speed=(30-/3-/x)"}
+Pickup 2 hidden X-Speeds going up the stairs before the gym
+  - (light post far into the route) 
+:::
+Head to the gym
+:::::trainer[Gym Trainer Julia]
+ ::::pokemon[Tympole]
+    - Swift x2-3
+ ::::
+:::::
+Puzzle 1:
+:info[Red]{color=red}
+:info[Yellow]{color=yellow}
+:info[Red]{color=red}
+:::::trainer[Gym Trainer Heather]
+ ::::pokemon[Krabby]
+    - X-SpAtk 
+    - Swift
+ ::::
+ ::::pokemon[Corphish]
+    - Swift
+ ::::
+:::::
+Puzzle 2:
+:info[Yellow]{color=yellow}
+:info[Red]{color=red}
+
+Puzzle 3:
+:info[Yellow]{color=yellow}
+:info[Red]{color=red}
+:info[Blue]{color=blue}
