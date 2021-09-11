@@ -1,0 +1,331 @@
+ :::tracker{species="Sobble" generation=8  baseStats="[[50, 40 ,40 ,70 ,40 ,70], [65, 60, 55, 95, 55, 90], [70, 85, 65, 125, 65, 120]]"}
+ 5:
+   5 -> 0,   0,   0,   0,   0,   0,
+   6 -> 0,   0,   1,   0,   0,   0,
+   7 -> 0,   0,   1,   0,   0,   1,
+   8 -> 0,   0,   1,   0,   0,   1,
+   9 -> 1,   0,   1,   0,   1,   1,
+   10 -> 1,   0,   2,   0,   2,   1,
+   11 -> 1,   0,   2,   0,   2,   4,
+   12 -> 1,   0,   2,   0,   4,   5,
+   13 -> 1,   0,   3,   0,   4,   5,
+   14 -> 1,   1,   3,   0,   4,   7,
+   15 -> 1,   1,   3,   0,   6,   7,
+   16 -> 1,   2,   3,   1,   7,   8,
+   17 -> 1,   2,   3,   2,   9,   8,
+   18 -> 1,   2,   3,   2,   11,   8,
+   19 -> 1,   2,   3,   2,   13,   9,
+   20 -> 1,   3,   5,   2,   13,   9,
+   21 -> 1,   3,   5,   2,   13,   13,
+   22 -> 1,   6,   5,   2,   13,   14,
+   23 -> 1,   8,   5,   2,   13,   15,
+   24 -> 1,   8,   7,   4,   14,   16,
+   25 -> 1,   9,   7,   4,   16,   18,
+   26 -> 1,   10   7,   4,   16,   20,
+   27 -> 1,   11   7,   6,   17,   25,
+   28 -> 1,   15   7,   6,   17,   24,
+   29 -> 1,   15   7,   6,   17,   24,
+   30 -> 1,   15   7,   6,   17,   24,
+:::
+:::card{theme=error}
+Make sure to have the game closed when setting the time
+:::
+:::card{theme=info}
+- Set your console to the 10 February or 15 February and the time to 23:36.
+  - 10 February is faster on average (Garbodor strats).
+  - 15 February is faster for the best case (Mudsdale strats).
+:::
+- Options
+  - Text Speed: Fast
+  - Battle Effects: Off (v)
+  - Battle Style: Set (v)
+  - Give Nicknames: Don’t Give (vv)
+  - Autosave: Off (R)
+  - Skip Movies: On (R)
+  - Grab your bag
+  - Pick Sobble
+:::::trainer[Pokémon Trainer Hop]{info="You want 14+ Sp. Atk at level 6 & 13+ Speed" infoColor=Blue}
+ ::::pokemon[Wooloo]
+    - Pound x3-4
+
+ ::::
+ ::::pokemon[Scorbunny]
+    - Water Gun x2
+ ::::
+:::::
+:::::if{source="Sobble" condition="spatk=~(x/10+/#) || speed=~(27+/#/#)"}
+:::card{theme=error}
+Reset (sorry)
+:::
+:::::
+Go to mom
+
+Catch a Wooloo on Route 1 (remember its level) 
+  - (Skwovet also works if needed)
+
+Head to the lab
+
+Pickup the Rare Candy east of the lab
+
+Pick second option in the Pokémon Center
+
+Deposit Wooloo in the PC
+:::::trainer[Youngster Jake]
+ ::::pokemon[Skwovet]
+    - Water gun x3
+ ::::
+:::::
+:::::trainer[Youngerster Benjamin]
+ ::::pokemon[Blipbug]
+    - Water Gun x2
+ ::::
+ ::::pokemon[Nickit]{info="Always Water gun if lvl 9" infoColor=blue}
+  :::if{source="Sobble" condition="atk=(x/x/20+)"}
+    - Pound x4
+  :::   
+  :::if{source="Sobble" condition="atk=(x/8+/19-) && spatk=(x/10-22/9-)"}
+    - Pound x4
+  :::   
+  :::if{source="Sobble" condition="atk=~(x/8+/#) && spatk=(x/23+/10+)"}
+    - Water Gun x4
+  :::    
+ ::::
+:::::
+:info[**Free heal**]{color=pink}
+:::::trainer[Pokémon Trainer Hop]
+ ::::pokemon[Wooloo]
+    
+    - Water gun x2
+    ```
+    Ranges:         SpAtk   L8                     L9
+    12.1%       at    17    (x / 10 - 22 / 0 - 9)    
+    93.8%       at    18    (x / 23+ / 10 - 22)    (x / 5 - 15 / 0 - 9)
+    100%        at    19    (x / x / 23+)          (x / 16+ / 10+)
+    ```
+ ::::
+ ::::pokemon[Scorbunny]
+    - Water Gun x2
+ ::::
+ ::::pokemon[Rookidee]
+    - Water Gun (x2)
+ ::::
+:::::
+:info[**Free heal**]{color=pink}
+
+When entering the wild area, look out for dens containing raids
+
+![Raid Den](RaidDen.png)
+
+If you see a raid as in the picture above
+  - Fight Onix (to the left) and use Pound until you are dead
+  - Interact with that raid and exit the menu immediately
+
+If you see a raid nearby the entrance
+  - Interact with that raid
+  - Fight Onix and use Pound until you are dead
+
+If you don’t see a raid nearby
+  - Walk to Motostoke
+  - On your way there, interact with a raid
+
+Go to the Watts trader left of the stairs to Motostoke
+  - Buy as many Quick Balls as you can
+
+### Shopping (right):
+> #### Buy
+> - 30 X-Sp.Atk (^^)
+> -  1 X-Sp.Def (>)
+
+Continue heading north
+
+Follow Hop into the gym
+
+Follow cutscenes
+
+Equip Mystic Water
+
+Teach Swift over Growl (Slot 2)
+
+Talk to the Team Yell Grunts
+:::::trainer[Team Yell Grunt]
+
+ ::::pokemon[Zigzagoon]
+    - Water Gun x2
+ ::::
+:::::
+:::::trainer[Team Yell Grunt]
+ ::::pokemon[Nickit]
+    - Water Gun x2-3
+ ::::
+:::::
+:info[**Free heal**]{color=pink}
+::::::trainer[Team Yell Grunt Double]
+ :::::pokemon[Zigzagoon]
+    - Swift
+    - Water Gun
+ :::::
+ :::::pokemon[Nickit]
+    - Water Gun
+    - Teach Water Pulse over Bind (Slot 4)
+ :::::
+:::::: 
+:info[**Free heal**]{color=pink}
+Talk to the receptionist
+
+Say yes to getting teleported to the gym
+
+Fly to the center west of the city and head west
+:::::trainer[Pokémon Trainer Hop]
+  :::pokemon[Wooloo]
+   - X-Sp. Atk
+   - Water Pulse
+  :::
+  :::pokemon[Scorbunny]
+   - Water Pulse
+  :::
+  :::pokemon[Rookidee]
+   - Water Pulse
+  :::
+:::::
+:info[**Free heal**]{color=pink}
+
+Follow Hop 
+  - Staying high on the route to dodge the Lass 
+    - By walking through the grass
+
+Dodge the schoolgirl as well 
+  -  By abusing her vision going from left to right
+
+After the dodge
+  - Stay high on the path to avoid hitting the next trainer
+
+When going up the ramp avoid the postman
+
+:::::trainer[Schoolboy Peter]
+ ::::pokemon[Sizzlipede]
+    - X-Sp. Atk 
+    - Water Pulse    
+ ::::
+ ::::pokemon[Dottler]
+    - Water Pulse x2
+ ::::
+:::::
+Pickup 2 hidden X-Defenses to the right of the cave entrance
+
+:info[Do not take the free heal, as it would mess up a necessary Torrent setup later!]{color=red}
+
+Follow the rails until reaching the bridge
+:::::::trainer[Worker Sandra]
+  :::::pokemon[Diglett]
+    - Water Pulse
+     
+      _Don't check speed with L2 or L3 Wooloo_
+  :::::
+:::if{source="Sobble" condition="speed=(18+/#/#)"}
+  :info[Faster]{color=blue}
+:::
+  :::::pokemon[Drilbur]
+
+    - Water Pulse
+  :::::
+:::::::
+Cross the bridge
+
+Heal such that Solosis will knock Sobble into Torrent (usually with an Oran Berry)
+
+:info[Torrent at 15 =]{color=blue} :calc[floor(hp / 3)]{source="Sobble" level=15}
+
+:info[Torrent at 16 =]{color=blue} :calc[floor(hp / 3)]{source="Sobble" evolution=1 level=16}
+
+You will level up after defeating Gothita and likely still need Torrent for that
+
+_If you somehow are already evolved, this is unnecessary_
+
+::damage[Solosis’ Confusion does]{source="Sobble" special=true offensive=false movePower=50 level=15 opponentLevel=13 stab=true opponentStat=34}
+:::::::trainer[Bede]
+ ::::::pokemon[Solosis]
+    - X-Sp. Atk 
+    - Water Pulse
+ ::::::
+ ::::::pokemon[Gothita]
+    - Water Pulse
+  ::::card{theme=info}
+Sobble L15 ranges out of Torrent:
+   :::if{source="Sobble" condition="spatk=(x/27+/14-19)"}
+ - 4/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/x/20-26)"}
+ - 5/16 
+    :::
+    :::if{source="Sobble" condition="spatk=(x/x/27+)"}
+ - 13/16
+    :::
+   ::::
+ :::::: 
+ ::::::pokemon[Hatenna]
+    - Water Pulse
+   ::::card{theme=info}
+Sobble L16 ranges out of Torrent
+    :::if{source="Sobble" condition="spatk=(x/10-16/3-)"}
+ - 4/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/17-22/4-9)"}
+ - 7/16 
+    :::
+    :::if{source="Sobble" condition="spatk=(x/23-28/10-16)"}
+ - 10/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/29+/x)"}
+ - 13/16
+    :::
+    :::if{source="Sobble" condition="spatk=(x/x/17+)"}
+ - 16/16
+    :::
+   ::::
+ ::::::
+:::::::
+Exit the mine
+
+Pickup hidden Energy Powder at the wooden boxes and the sand bags
+
+Pickup the hidden Rare Candy at south-east most rock
+
+Pickup 2 hidden Energy Powders just north of the Rare Cand
+:::if{source="Sobble" condition="def=(x/21-28/6-13) && hp=(x/21+/x)"}
+ - Pickup hidden Fresh Water after talking to Sonia
+:::
+:::if{source="Sobble" condition="def=(x/29+/14-20) && hp=(x/1+/x)"}
+ - Pickup hidden Fresh Water after talking to Sonia
+:::
+:::if{source="Sobble" condition="def=(x/x/#) && hp=~(x/26+/x)"}
+ - Pickup hidden Fresh Water after talking to Sonia
+:::
+:::if{source="Sobble" condition="def=(x/x/29+) && hp=(x/26+/x)"}
+ - Pickup hidden Fresh Water after talking to Sonia
+ - Keep one regular Potion for Trevenant
+:::
+
+:::::trainer[Gym Trainer Samuel]
+ ::::pokemon[Gossifleur]
+    -  Swift x3
+ ::::
+:::::
+:info[Heal to full]{color=yellow}
+:::card{theme=error}
+The next fight is complicated!
+  - Please save your game before fighting Milo!
+:::
+:::card{theme=info}
+The following requirements need to be met in order to one shot Eldegoss:
+  - Drizzile needs to be in Torrent
+  - Rain needs to be up
+  - You need to be dynamaxed
+  - Have used 3 X-Sp. Akts on Gossifleur
+
+:info[None of these requirements are optional and if you do not meet one of them, you will die]{color=red}
+
+The idea of this fight is to get hit into low HP 
+  - (aim for 13 HP or lower if you don’t know what to do) 
+
+By Gossifleur and only then to attack
+::::
