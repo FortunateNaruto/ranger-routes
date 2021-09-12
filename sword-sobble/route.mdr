@@ -21,11 +21,11 @@
    23 -> 1,   8,   5,   2,   13,   15,
    24 -> 1,   8,   7,   4,   14,   16,
    25 -> 1,   9,   7,   4,   16,   18,
-   26 -> 1,   10   7,   4,   16,   20,
-   27 -> 1,   11   7,   6,   17,   25,
-   28 -> 1,   15   7,   6,   17,   24,
-   29 -> 1,   15   7,   6,   17,   24,
-   30 -> 1,   15   7,   6,   17,   24,
+   26 -> 1,   10,   7,   4,   16,   20,
+   27 -> 1,   11,   7,   6,   17,   25,
+   28 -> 1,   15,   7,   6,   17,   24,
+   29 -> 1,   15,   7,   6,   17,   24,
+   30 -> 1,   15,   7,   6,   17,   24,
 :::
 :::card{theme=error}
 Make sure to have the game closed when setting the time
@@ -555,3 +555,139 @@ Leave the city east
   :::::
 :::::::
 :info[**Heal to full**]{color=yellow}
+::::::trainer[Team Yell Double]{info="Heal as needed" infoColor=blue}
+```
+X SpAtk
+- If did not get Snarled 
+  - Water Pulse Thievul
+- If Wooloo attacked something
+  - Water Pulse same target as Wooloo
+- If Wooloo used a non damaging move
+  - X SpAtk again (or heal if too low)
+- Once Thievul is gone, target Linoone/Pancham
+  - With lower end Sp. Atk
+    - may be useful to go for Linoone if 
+    - did not get Snarled turn 1
+- Swift does about half to Pancham at +1
+- Pancham and Liepard always die in one hit to +1 Water Pulse
+  - Pancham can die in one hit to +0 Water Pulse, but it’s always a range
+- Always go for the kill on the lowest HP Pokémon; ideally with Swift
+```
+::damage[Linoone’s Night Slash does (L24)]{source="Sobble" special=false  evolution=1 offensive=false movePower=70 level=24 opponentLevel=22 stab=true opponentStat=35}
+::damage[Pancham’s Low Sweep does (L25)]{source="Sobble" special=false  evolution=1 offensive=false movePower=65 level=25 opponentLevel=21 stab=true opponentStat=42}
+:::if{source="Sobble" condition="speed=(21+/#/#)"}
+:info[Faster than Pancham after 2 Low Sweeps]{color=blue}
+:::
+::::::
+:info[**Free heal**]{color=pink}
+
+Branch right and go down after rotating trainer
+
+Fly to west Motostoke and enter the hotel
+
+:::::::trainer[Pokémon Trainer Marnie]{info="Heal as needed" infoColor=blue}
+  :::::pokemon[Croagunk]
+     - X SpAtk (x2 + Energy Powder) 
+     - X Speed
+     - Swift
+     ::damage[Ranges with only 1 X SpAtk]{source="Sobble" combatStages=2 evolution=1 special=true offensive=true effectiveness=1 healthThreshold=60 theme=error movePower=60 level=25 opponentLevel=24 opponentStat=27}
+  :::::
+  :::::pokemon[Morpeko]
+     - Water Pulse    
+     ::damage[Quick Attack does]{source="Sobble" evolution=1 special=false offensive=false movePower=40 level=25 opponentLevel=26 stab=false opponentStat=58}
+  :::::
+  :::::pokemon[Scraggy]
+     - Water Pulse    
+  :::::
+:::::::
+Enter the fire gym
+
+Puzzle:
+  - Catch Litwick (top grass) with a Quick Ball.
+  - Defeat Vulpix (lower left grass) with Water Pulse.
+  - Catch Litwick (top grass) with a Quick Ball.
+
+:info[Heal to full if took damage during the catches]{color=yellow}
+
+:::::::trainer[Gym Leader Kabu]{info="Don't bother healing burn" infoColor=yellow}
+  :::::pokemon[Ninetales]
+    :::if{source="Sobble" condition="speed=(30-/3-/x)"}
+     - X Sp Atk x3
+     - Energy Powder
+     - Water Pulse
+       - You will get outsped and potentially flinched by Arcanine’s Bite
+    :::
+    :::if{source="Sobble" evolution=1 level=27 condition="speed=57-60"}
+     - X Sp Atk x2
+     - Water Pulse
+    :::
+    :::if{source="Sobble"  evolution=1 level=27 condition="speed=61"}
+     - X-Sp Atk
+     - [DyMax] Water Pulse
+    :::
+    :::if{source="Sobble" evolution=1 level=27 condition="speed=62+"}
+     - X-Sp. Atk x2(x3)
+     - Water Pulse
+    :::
+  :::::
+  :::::pokemon[Arcanine]
+    :::if{source="Sobble" evolution=1 level=27 condition="speed=57-60"}
+     - X Speed
+    :::
+     - Water Pulse
+  :::::
+  :::::pokemon[Centiskorch]
+     - Water Pulse
+     ::damage[Torrent ranges at +4]{source="Sobble" combatStages=4 evolution=1 torrent=true special=true offensive=true effectiveness=2 healthThreshold=194 theme=error movePower=60 level=27 opponentLevel=27 stab=true opponentStat=59}
+  :::::
+:::::::
+:info[**Free heal**]{color=pink}
+
+Remove both Litwicks from your party
+
+In the wild area
+  - Go left and fight the Garbodor/Mudsdale
+>- Garbodor: Spam Swift 
+>- Mudsdale: Spam Burn Heal (Pound if you have 10 or less HP)
+
+Select Hammerlocke after dying.
+
+After the cutscene, head to the castle.
+
+Exit the castle, bike to Leon (left of the Pokémon Center)
+>- Select 2nd option on Leon (after the small dialogue break)
+
+Bike into the center
+
+### Shopping (right):
+> #### Buy
+> - 1 Guard Spec (^^)
+> - 2 X-Accuracy (^)
+:::if{source="Sobble" condition="speed=~(31-/8-/x)"}
+> - 2 X-Speed (^)
+:::
+:::if{source="Sobble" condition="speed=(31-/8-/x)"}  
+> - 3 X-Speed (^)
+:::
+Bike east and pickup the Rare Candy
+
+(Optionally) pickup Wise Glasses
+
+Fly to the left centre of Hammerlocke and shop
+
+### Shopping (right):
+> #### Buy
+> - Rain Dance (^^^)
+
+Go left to the next cutscene
+
+Go south west and teach 
+
+Water Pledge over Pound (slot 1) at the move tutor
+
+Teach Rain Dance over Water Gun (Slot 3)
+
+Use 2 Rare Candies
+>- Do not teach U-turn at level 30
+
+Head west of Hammerlocke
