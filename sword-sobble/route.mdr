@@ -691,3 +691,44 @@ Use 2 Rare Candies
 >- Do not teach U-turn at level 30
 
 Head west of Hammerlocke
+
+:::::::trainer[Team Yell Grunt]{info="Heal as needed" infoColor=blue}
+  :::::pokemon[Stunky]
+     - Rain Dance 
+     - Water Pledge
+  :::::
+  :::::pokemon[Linoone]
+    :::if{source="Sobble" condition="speed=(x/18+/#)"}
+     :info[Faster]{color=blue}
+    :::
+     - Water Pledge (+ Water Pulse)
+     ::damage[Take Down Does]{source="Sobble" special=false  evolution=1 offensive=false movePower=90 level=30 opponentLevel=30 stab=true opponentStat=47}
+  :::::
+:::::::
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Liepard]
+    :::if{source="Sobble" condition="speed=(x/x/27+)"}
+      :info[Faster]{color=blue}
+    :::
+     - (Heal to full)
+     - X-Sp. Atk 
+     - Swift x2
+     - _Swift x3 kills if got Sand Attacked after the heal_
+     - _Can also Rain Dance + Water Pledge_
+     ::damage[Rain Danced Water Pledge does]{source="Sobble" evolution=1 combatStages=0 weatherBoosted=true special=true offensive=true healthThreshold=78 theme=error movePower=80 level=30 opponentLevel=30 stab=true opponentStat=35}
+     ::damage[Assurance Does]{source="Sobble" special=false  evolution=1 offensive=false movePower=60 level=30 opponentLevel=30 stab=true opponentStat=57}
+  :::::
+:::::::
+:info[Heal to full-ish]{color=yellow}
+:::::::trainer[Beauty Anita]
+  :::::pokemon[Clefairy]
+     - Rain Dance 
+     - Water Pledge
+  :::::
+  :::::pokemon[Clefable]
+     - Water Pulse 
+     - Water Pledge
+     ::damage[Rain Danced Water Pulse x2 ranges]{source="Sobble" otherModifer=1 evolution=1 combatStages=0 weatherBoosted=true special=true offensive=true theme=error movePower=60 level=30 opponentLevel=30 stab=true opponentStat=59}
+  :::::
+:::::::
