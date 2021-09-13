@@ -729,6 +729,67 @@ Head west of Hammerlocke
   :::::pokemon[Clefable]
      - Water Pulse 
      - Water Pledge
-     ::damage[Rain Danced Water Pulse x2 ranges]{source="Sobble" otherModifer=1 evolution=1 combatStages=0 weatherBoosted=true special=true offensive=true theme=error movePower=60 level=30 opponentLevel=30 stab=true opponentStat=59}
+     :::if{source="Sobble" condition="spatk=(x/22+/3+)"}
+      :info[Water Pulse x2 is 100%]{color=blue}
+    :::
   :::::
 :::::::
+Go up the second ladder and then the ladder straight ahead
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Artist Duncan]
+  :::::pokemon[Koffing]
+     - Swift x2
+     _(or Water Pulse + Swift or Water Pulse x2, depending on stats)_
+    :::if{source="Sobble" condition="spatk=(x/9-12/x)"}
+     - Water Pulse + Swift
+     :info[85.9% Range]{color=red}
+    :::
+    :::if{source="Sobble" condition="spatk=(x/13-15/x)"}
+     - Water Pulse 
+     - Swift
+     :info[96.1% Range]{color=red}
+    :::
+    :::if{source="Sobble" condition="spatk=(x/16-21/2-)"}
+     - Water Pulse 
+     - Swift
+     :info[97.7% Range]{color=red}
+    :::
+    :::if{source="Sobble" condition="spatk=(x/22+/3+)"}
+     - Water Pulse
+     - Swift
+     :info[100% Range]{color=red}
+    :::
+    :::if{source="Sobble" condition="spatk=(x/x/13+)"}
+     - Water Pulse x2
+     :info[100% Range]{color=red}
+    :::
+  :::::
+  :::::pokemon[Sudowoodo]
+    - _:info[If Koffing used Self-Destruct, use an X-Defense]{color=gray}_
+    - _:info[X-Accuracy if needed (try to avoid it if only bought 2)]{color=gray}_
+     - Water Pulse
+    - Water Pledge
+    :::if{source="Sobble" condition="spatk=(x/26+/6+)"}
+      - Water Pulse x2 is 100%
+    :::
+     _:info[Has Sucker Punch, but seems to rarely use it, even if it can kill]{color=red}_
+  :::::
+:::::::
+Head to Stow-On-Side
+
+:::if{source="Sobble" condition="spatk=~(x/x/18+)"}
+Backtrack and pickup the Route 6 hidden Rare Candy
+- you may be off by a level in sections, so make sure to adapt
+:::
+
+:info[Heal to full]{color=yellow}
+
+Use your Rare Candies (either 1 or 2)
+
+Fly to Stow-On-Side
+
+Pickup 2 X-Sp. Atk 
+- _Northwest at the city near the two bags_
+- _Can be skipped if used only 2 on Kabu or 1 on Marnie_
