@@ -793,3 +793,23 @@ Fly to Stow-On-Side
 Pickup 2 X-Sp. Atk 
 - _Northwest at the city near the two bags_
 - _Can be skipped if used only 2 on Kabu or 1 on Marnie_
+
+
+:::::::trainer[]
+  :::::pokemon[]
+    :::if{source="" condition=""}
+    :::
+  :::::
+  :::::pokemon[]
+    :::if{source="" condition=""}
+    :::
+  :::::
+  :::::pokemon[]
+    :::if{source="" condition=""}
+    :::
+  :::::
+  :::::pokemon[]
+    :::if{source="" condition=""}
+    :::
+  :::::
+:::::::
