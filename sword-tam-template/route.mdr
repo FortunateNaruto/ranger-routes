@@ -1,6 +1,5 @@
-:::tracker{species="" nature="" generation=8 baseStats=""}
+:::tracker{species="$tam" nature="" generation=8 baseStats="[[]]"}
 7:
-
 :::
 
 :::card{theme=info}
