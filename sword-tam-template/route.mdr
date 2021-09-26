@@ -100,7 +100,7 @@ Head outside
 **Mash A** when you get out **to fast travel**
 
 :::::::trainer[Pokémon Trainer Hop 3]
-  :::::pokemon[Wooloo]{baseStats="[42, 40, 55, 40, 45, 48]" ivs="[0,0,0,0,0,0]" level=11 nature="Hasty" type="Noraml"}
+  :::::pokemon[Wooloo]{baseStats="[42, 40, 55, 40, 45, 48]" ivs="[0,0,0,0,0,0]" level=11 nature="Hasty" type="Normal"}
      - 
   :::::
   :::::pokemon[Scorbunny]{baseStats="[50, 71, 40, 40, 40, 69]" ivs="[15,15,15,25,25,20]" level=14 nature="" type="Fire"}
@@ -128,10 +128,10 @@ Head outside
 :::::::
 
 :::::::trainer[Worker Sandra]
-  :::::pokemon[Diglett]{baseStats="[10, 55, 25, 35, 45, 95]" ivs="[0,0,0,0,0,0]" level=14 nature="Serious" type="Groud"}
+  :::::pokemon[Diglett]{baseStats="[10, 55, 25, 35, 45, 95]" ivs="[0,0,0,0,0,0]" level=14 nature="Serious" type="Ground"}
      - 
   :::::
-  :::::pokemon[Drilbur]{baseStats="[60, 85, 40, 30, 45, 68]" ivs="[0,0,0,0,0,0]" level=15 nature="Modest" type="Groud"}
+  :::::pokemon[Drilbur]{baseStats="[60, 85, 40, 30, 45, 68]" ivs="[0,0,0,0,0,0]" level=15 nature="Modest" type="Ground"}
      - 
   :::::
 :::::::
@@ -163,7 +163,7 @@ Head for the stadium
   :::::pokemon[Gossifleur]{baseStats="[40, 40, 60, 40, 60, 10]" ivs="[15,15,15,15,15,15]" level=19 nature="Serious" type="Grass"}
      - 
   :::::
-  :::::pokemon[Eldegoss]{baseStats="40, 40, 60, 40, 60, 10]" ivs="[20,20,20,20,20,20]" level=20 nature="Relaxed" type="Grass"}
+  :::::pokemon[Eldegoss]{baseStats="[40, 40, 60, 40, 60, 10]" ivs="[20,20,20,20,20,20]" level=20 nature="Relaxed" type="Grass"}
      - 
   :::::
 :::::::
@@ -194,7 +194,7 @@ _**Skip camera crew by only having 1 alive Pokémon in your party**_
   :::::pokemon[Corvisquire]{baseStats="[68, 67, 55, 43, 55, 77]" ivs="[15,15,15,15,15,15]" level=19 nature="Jolly" type="Flying"}
      - 
   :::::
-  :::::pokemon[Raboot]{baseStats="[{65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=21 nature="" type="Fire"}
+  :::::pokemon[Raboot]{baseStats="[65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=21 nature="" type="Fire"}
      - 
   :::::
 :::::::
@@ -235,7 +235,7 @@ Head for the gym
   :::::pokemon[Goldeen]{baseStats="[45, 67, 60, 35, 50, 63]" ivs="[15,15,15,15,15,15]" level=22 nature="Timid" type="Water"}
      - 
   :::::
-  :::::pokemon[Arrokuda]{baseStats="[41, 63, 40, 40, 30, 66]" ivs="[15,15,15,15,15,15]" level=23 nature="Caln" type="Water"}
+  :::::pokemon[Arrokuda]{baseStats="[41, 63, 40, 40, 30, 66]" ivs="[15,15,15,15,15,15]" level=23 nature="Calm" type="Water"}
      - 
   :::::
   :::::pokemon[Drednaw]{baseStats="[90, 115, 90, 48, 68, 74]" ivs="[20,20,20,20,20,20]" level=24 nature="Modest" type="Water/Rock"}
@@ -306,7 +306,7 @@ Head for **Budew Inn (right)**
 Head for the **stadium**
 
 :::::::trainer[Gym Leader Kabu]
-  :::::pokemon[Ninetales]{baseStats="[73, 76, 75, 81, 100, 100]" ivs="15,15,15,15,15,15]" level=25 nature="Bold" type="Fire"}
+  :::::pokemon[Ninetales]{baseStats="[73, 76, 75, 81, 100, 100]" ivs="[15,15,15,15,15,15]" level=25 nature="Bold" type="Fire"}
      - 
   :::::
   :::::pokemon[Arcanine]{baseStats="[90, 110, 80, 100, 80, 95]" ivs="[15,15,15,15,15,15]" level=25 nature="Timid" type="Fire"}
@@ -348,7 +348,7 @@ Use **Flying Taxi** to the **LEFT Pokémon Center**
 :::::::
 
 :::::::trainer[Beauty Anita]
-  :::::pokemon[Clefairy]{baseStats="[{70, 45, 48, 60, 65, 35]" ivs="[0,0,0,0,0,0]" level=29 nature="Serious" type="Fairy"}
+  :::::pokemon[Clefairy]{baseStats="[70, 45, 48, 60, 65, 35]" ivs="[0,0,0,0,0,0]" level=29 nature="Serious" type="Fairy"}
      - 
   :::::
   :::::pokemon[Clefable]{baseStats="[95, 70, 73, 95, 90, 60]" ivs="[0,0,0,0,0,0]" level=30 nature="Serious" type="Fairy"}
@@ -373,7 +373,7 @@ Use **Flying Taxi** to the **LEFT Pokémon Center**
   :::::pokemon[Toxel]{baseStats="[40, 38, 35, 54, 35, 40]" ivs="[10,10,10,10,10,10]" level=29 nature="Bold" type="Electric/Poison"}
      - 
   :::::
-  :::::pokemon[Raboot]{baseStats="[{65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=33 nature="" type="Fire"}
+  :::::pokemon[Raboot]{baseStats="[65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=33 nature="" type="Fire"}
      - 
   :::::
   :::::pokemon[Silicobra]{baseStats="[52, 57, 75, 35, 50, 46]" ivs="[10,10,10,10,10,10]" level30= nature="Bold" type="Ground"}
@@ -404,7 +404,7 @@ Use **Flying Taxi** to the **LEFT Pokémon Center**
   :::::pokemon[Hitmonlee]{baseStats="[50, 120, 53, 35, 110, 87]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
      - 
   :::::
-  :::::pokemon[Hitmonchan]{baseStats="[{50, 105, 79, 35, 110, 76]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
+  :::::pokemon[Hitmonchan]{baseStats="[50, 105, 79, 35, 110, 76]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
      - 
   :::::
 :::::::
@@ -479,10 +479,10 @@ Head **down the stairs again** and
 :::::::
 
 :::::::trainer[Gym Leader Opal]
-  :::::pokemon[Weezing]{baseStats="[65, 90, 120, 85, 70, 60]" ivs="[15,15,15,15,15,15]" level=36 nature="36" type="Poison/Fairy"}
+  :::::pokemon[Weezing]{baseStats="[65, 90, 120, 85, 70, 60]" ivs="[15,15,15,15,15,15]" level=36 nature="Quirky" type="Poison/Fairy"}
      - 
   :::::
-  :::::pokemon[Togekiss]{baseStats="[85, 50, 95, 120, 115, 80]" ivs="[15,15,15,15,15,15]" level=37 nature="37" type="Fairy/Flying"}
+  :::::pokemon[Togekiss]{baseStats="[85, 50, 95, 120, 115, 80]" ivs="[15,15,15,15,15,15]" level=37 nature="Timid" type="Fairy/Flying"}
      - 
   :::::
   :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[15,15,15,15,15,15]" level=36 nature="Adamant" type="Steel/Fairy"}
@@ -503,7 +503,7 @@ Head **down the stairs again** and
   :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=35 nature="Bold" type="Normal"}
      - 
   :::::
-  :::::pokemon[Cinderace]{baseStats="[{80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=37 nature="" type="Fire"}
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=37 nature="" type="Fire"}
      - 
   :::::
   :::::pokemon[Boltund]{baseStats="[69, 90, 60, 90, 60, 121]" ivs="[10,10,10,10,10,10]" level=35 nature="Adamant" type="Electric"}
@@ -561,13 +561,13 @@ Go down **left side** for the **restaurant**
   :::::pokemon[Dubwool]{baseStats="[72, 80, 100, 60, 90, 88]" ivs="[5,5,5,5,5,5]" level=40 nature="Hasty" type="Normal"}
      - 
   :::::
-  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="15,15,15,15,15,15]" level=40 nature="Jolly" type="Flying/Steel"}
+  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[15,15,15,15,15,15]" level=40 nature="Jolly" type="Flying/Steel"}
      - 
   :::::
   :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=39 nature="Bold" type="Normal"}
      - 
   :::::
-  :::::pokemon[Cinderace]{baseStats="[{80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=41 nature="" type="Fire"}
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=41 nature="" type="Fire"}
      - 
   :::::
   :::::pokemon[Pincurchin]{baseStats="[48, 101, 95, 91, 85, 15]" ivs="[10,10,10,10,10,10]" level=39 nature="Sassy" type="Electric"}
@@ -631,7 +631,7 @@ Head inside **Spikemuth**
 :::::::
 
 :::::::trainer[Team Yell Grunt]
-  :::::pokemon[Weavile]{baseStats="70, 120, 65, 45, 85, 125]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Dark/Ice"}
+  :::::pokemon[Weavile]{baseStats="[70, 120, 65, 45, 85, 125]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Dark/Ice"}
      - 
   :::::
 :::::::
@@ -800,7 +800,7 @@ Skip camera crew by **only having 1 alive Pokémon** in your party
   :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=47 nature="Bold" type="Normal"}
      - 
   :::::
-  :::::pokemon[Cinderace]{baseStats="[{80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=49 nature="" type="Fire"}
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=49 nature="" type="Fire"}
      - 
   :::::
 :::::::
@@ -811,10 +811,10 @@ North-East
 ![North East](northeast.png)
 
 :::::::trainer[Macro Cosmos’s Eric 1 (Speed +2)]
-  :::::pokemon[Meowth]{baseStats="[50, 65, 55, 40, 40, 40}]" ivs="[0,0,0,0,0,0]" level=47 nature="Jolly" type="Steel"}
+  :::::pokemon[Meowth]{baseStats="[50, 65, 55, 40, 40, 40]" ivs="[0,0,0,0,0,0]" level=47 nature="Jolly" type="Steel"}
      - 
   :::::
-  :::::pokemon[Durant]{baseStats="[58, 109, 112, 48, 48, 109]" ivs="[0,0,0,0,0,0]" level=47 nature="JollyJolly" type="Bug/Steel"}
+  :::::pokemon[Durant]{baseStats="[58, 109, 112, 48, 48, 109]" ivs="[0,0,0,0,0,0]" level=47 nature="Jolly" type="Bug/Steel"}
      - 
   :::::
 :::::::
