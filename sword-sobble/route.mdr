@@ -1,31 +1,57 @@
- :::tracker{species="Sobble" generation=8  baseStats="[[50, 40 ,40 ,70 ,40 ,70], [65, 60, 55, 95, 55, 90], [70, 85, 65, 125, 65, 120]]"}
+ :::tracker{species="Sobble" generation=8 type=Water baseStats="[[50, 40 ,40 ,70 ,40 ,70], [65, 60, 55, 95, 55, 90], [70, 85, 65, 125, 65, 120]]"}
  5:
-   5 -> 0,   0,   0,   0,   0,   0,
-   6 -> 0,   0,   1,   0,   0,   0,
-   7 -> 0,   0,   1,   0,   0,   1,
-   8 -> 0,   0,   1,   0,   0,   1,
-   9 -> 1,   0,   1,   0,   1,   1,
-   10 -> 1,   0,   2,   0,   2,   1,
-   11 -> 1,   0,   2,   0,   2,   4,
-   12 -> 1,   0,   2,   0,   4,   5,
-   13 -> 1,   0,   3,   0,   4,   5,
-   14 -> 1,   1,   3,   0,   4,   7,
-   15 -> 1,   1,   3,   0,   6,   7,
-   16 -> 1,   2,   3,   1,   7,   8,
-   17 -> 1,   2,   3,   2,   9,   8,
-   18 -> 1,   2,   3,   2,   11,   8,
-   19 -> 1,   2,   3,   2,   13,   9,
-   20 -> 1,   3,   5,   2,   13,   9,
-   21 -> 1,   3,   5,   2,   13,   13,
-   22 -> 1,   6,   5,   2,   13,   14,
-   23 -> 1,   8,   5,   2,   13,   15,
-   24 -> 1,   8,   7,   4,   14,   16,
-   25 -> 1,   9,   7,   4,   16,   18,
-   26 -> 1,   10,   7,   4,   16,   20,
-   27 -> 1,   11,   7,   6,   17,   25,
-   28 -> 1,   15,   7,   6,   17,   24,
-   29 -> 1,   15,   7,   6,   17,   24,
-   30 -> 1,   15,   7,   6,   17,   24,
+   6 ->  0, 0, 1, 0, 0, 0,
+   7 ->  0, 0, 1, 0, 0, 1,
+   8 ->  1, 0, 2, 0, 0, 1,
+   9 ->  1, 0, 2, 0, 2, 1,
+   10 -> 1, 0, 3, 0, 2, 2,
+   11 -> 1, 0, 3, 0, 2, 4,
+   12 -> 1, 0, 3, 0, 4, 5,
+   13 -> 1, 0, 4, 0, 4, 6,
+   14 -> 1, 1, 4, 0, 4, 7,
+   15 -> 1, 1, 4, 0, 6, 8,
+   16 -> 1, 2, 4, 1, 7, 8,
+   17 -> 1, 2, 4, 2, 9, 8,
+   18 -> 1, 2, 4, 2, 11,   8,
+   19 -> 1, 2, 4, 2, 13,   9,
+   20 -> 1, 3, 6, 2, 13,   9,
+   21 -> 1, 3, 6, 2, 13,   13,
+   22 -> 1, 6, 6, 2, 13,   14,
+   23 -> 1, 8, 6, 2, 13,   15,
+   24 -> 1, 8, 8, 4, 14,   16,
+   25 -> 1, 8, 8, 4, 16,   20,
+   26 -> 1, 10,   8, 4, 16,   22,
+   27 -> 1, 11,   8, 6, 17,   24,
+   28 -> 1, 15,   8, 6, 17,   24,
+   31 -> 3, 15,   8, 6, 17,   29,
+   32 -> 6, 15,   11,   6, 17,   29,
+   35 -> 6, 18,   12,   7, 19,   31,
+   36 -> 6, 21,   12,   7, 23,   31,
+   37 -> 6, 28,   12,   7, 23,   31,
+   38 -> 7, 28,   14,   11,   25,   32,
+   39 -> 9, 28,   15,   16,   25,   32,
+   40 -> 9, 29,   18,   18,   28,   32,
+   41 -> 11,   31,   18,   20,   28,   34,
+   42 -> 11,   34,   18,   24,   28,   37,
+   43 -> 11,   34,   24,   24,   29,   37,
+   44 -> 13,   36,   26,   24,   29,   40,
+   45 -> 13,   38,   29,   24,   29,   46,
+   46 -> 13,   40,   30,   24,   32,   48,
+   47 -> 13,   41,   34,   24,   34,   51,
+   48 -> 15,   43,   39,   24,   34,   51,
+   49 -> 15,   47,   43,   25,   37,   52,
+   50 -> 15,   48,   45,   27,   37,   54,
+   51 -> 17,   53,   47,   30,   37,   54,
+   52 -> 17,   59,   48,   30,   39,   58,
+   53 -> 19,   66,   50,   30,   39,   58,
+   54 -> 19,   69,   56,   30,   39,   62,
+   55 -> 21,   71,   65,   30,   40,   62,
+   56 -> 21,   76,   67,   30,   42,   66,
+   57 -> 21,   77,   70,   36,   42,   68,
+   58 -> 21,   85,   72,   36,   42,   70,
+   59 -> 21,   93,   74,   36,   46,   72,
+   60 -> 21,   95,   81,   38,   46,   72,
+   61 -> 21,   110,81,  39,   46,   75,
 :::
 :::card{theme=error}
 Make sure to have the game closed when setting the time
@@ -797,7 +823,10 @@ Pickup 2 X-Sp. Atk
 
 :::::::trainer[Pokémon Trainer Hop 5]
   :::::pokemon[Cramorant]{baseStats="[70, 85, 55, 85, 95, 85]" ivs="[10,10,10,10,10,10]" level=29 nature="Hasty" type="Flying/Water"}
-     ::damage[Pluck Does]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=60} 
+    :::if{source="Sobble" condition="spatk=(x/22+/3+)"}
+     - 
+    :::
+     ::damage[Pluck Does at lvl 33]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=60} 
   :::::
   :::::pokemon[Toxel]{baseStats="[40, 38, 35, 54, 35, 40]" ivs="[10,10,10,10,10,10]" level=29  nature="Bold" type="Electric/Poison"}
      - Swift
@@ -807,70 +836,81 @@ Pickup 2 X-Sp. Atk
   :::::
   :::::pokemon[Raboot]{baseStats="[65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=33 nature="" type="Fire"}
      - Water Pulse/Swift
-     ::damage[Doulbe Kick +0 Does]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=30 otherModifer=2} 
-     ::damage[Doulbe Kick -1 Does]{source="Sobble" level=33 type=Flying combatStages=-1 evolution=1 special=false offensive=false theme=error movePower=30 otherModifer=2} 
+     ::damage[Doulbe Kick +0 Does]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=60 otherModifier=1} 
+     ::damage[Doulbe Kick -1 Does]{source="Sobble" level=33 type=Flying combatStages=-1 evolution=1 special=false offensive=false theme=error movePower=60 otherModifier=1} 
   :::::
 :::::::
-
-**Head forward** for the **stadium**
 
 :info[**Free heal**]{color=pink}
 
 :::::::trainer[Gym Trainer Ian]
   :::::pokemon[Stufful]{baseStats="[70, 75, 50, 45, 50, 50]" ivs="[5,5,5,5,5,5]" level=31 nature="Adamant" type="Normal/Fighting"}
-     - 
+     - X-Sp. Atk 
+     - Water Pulse
   :::::
   :::::pokemon[Bewear]{baseStats="[120, 125, 80, 55, 60, 60]" ivs="[5,5,5,5,5,5]" level=32 nature="Modest" type="Normal/Fighting"}
-     - 
+     - Water Pledge
+     - Do not teach Snipe Shot
   :::::
 :::::::
 
 :::::::trainer[Gym Trainer Claire]
-  :::::pokemon[Farfetch'd]{baseStats="[52, 95, 55, 58, 62, 55]" ivs="[5,5,5,5,5,5]" level=32 nature="Lonely" type="Fighting"}
-     - 
+  :::::pokemon[Farfetch'd]{info="range as Drizzile"infoColor=red baseStats="[52, 95, 55, 58, 62, 55]" ivs="[5,5,5,5,5,5]" level=32 nature="Lonely" type="Fighting"}
+     - Water Pledge
+       - Water Pulse (x2) if used Detect
   :::::
 :::::::
 
+:info[Heal to full]{color=yellow}
+
+
 :::::::trainer[Gym Trainer Simon]
   :::::pokemon[Hitmonlee]{baseStats="[50, 120, 53, 35, 110, 87]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
-     - 
+     - X-Sp. Atk 
+     - Water Pledge
   :::::
   :::::pokemon[Hitmonchan]{baseStats="[50, 105, 79, 35, 110, 76]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
-     - 
+     - Water Pledge
+     ::damage[Mach Punch does at 34]{source="Sobble" type=Fighting special=false level=35 evolution=1 offensive=false movePower=40}
+     ::damage[Mach Punch does at 35]{source="Sobble" type=Fighting special=false level=35 evolution=2 offensive=false movePower=40}
   :::::
 :::::::
 
 :::::::trainer[Gym Leader Bea 1]
   :::::pokemon[Hitmontop]{baseStats="[50, 95, 95, 35, 110, 70]" ivs="[15,15,15,15,15,15]" level=34 nature="Adamant" type="Fighting"}
-     - 
+     - X-Defense
+     - X-Sp. Atk
+       - (Heal to full) 
+     - Water Pledge
+     ::damage[Quick attack at +2 does]{source="Sobble" type=Normal combatStages=2 special=false level=35 evolution=2 offensive=false movePower=40}
   :::::
   :::::pokemon[Pangoro]{baseStats="[95, 124, 78, 69, 71, 58]" ivs="[15,15,15,15,15,15]" level=34 nature="Careful" type="Fighting/Dark"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Sirfetch'd]{baseStats="[62, 135, 95, 68, 82, 65]" ivs="[15,15,15,15,15,15]" level=35 nature="Impish" type="Fighting"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Machamp]{baseStats="[90, 130, 80, 65, 85, 55]" ivs="[20,20,20,20,20,20]" level=36 nature="Careful" type="Fighting"}
-     - 
+     - Water Pledge x2
+     ::damage[Max Knuckle does]{source="Sobble" type=Fighting combatStages=2 opponentCombatStages=0 special=false level=36 evolution=2 offensive=false movePower=80}
   :::::
 :::::::
 
 :info[**Free heal**]{color=pink}
 
-Head **LEFT** and **up the stairs**
-
 :::::::trainer[Pokémon Trainer Bede]
   :::::pokemon[Duosion]{baseStats="[65, 40, 50, 125, 60, 30]" ivs="[15,15,15,15,15,15]" level=32 nature="Modest" type="Psychic"}
-     - 
+     - X-Sp. Atk (x2 if Light Screen) 
+     - Water Pledge
   :::::
   :::::pokemon[Hattrem]{baseStats="[57, 40, 65, 86, 73, 49]" ivs="[15,15,15,15,15,15]" level=35 nature="Modest" type="Psychic"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Gothorita]{baseStats="[60, 45, 70, 75, 85, 55]" ivs="[15,15,15,15,15,15]" level=32 nature="Bold" type="Psychic"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Ponyta]{baseStats="[50, 85, 55, 65, 65, 90]" ivs="[15,15,15,15,15,15]" level=33 nature="Adamant" type="Psychic"}
-     - 
+     - Water Pledge
   :::::
 :::::::
 
@@ -884,74 +924,140 @@ Head **down the stairs again** and
 
 :::::::trainer[Gym Trainer Annette]
   :::::pokemon[Spritzee]{baseStats="[78, 52, 60, 63, 65, 23]" ivs="[5,5,5,5,5,5]" level=34 nature="Docile" type="Fairy"}
-     - 
+     - Water Pledge
+     - Answer 1
+     - Water Pulse
   :::::
   :::::pokemon[Slurpuff]{baseStats="[82, 80, 86, 85, 75, 72]" ivs="[5,5,5,5,5,5]" level=34 nature="Bashful" type="Fairy"}
-     - 
+     - Water Pledge
+     - :info[Do not teach Liquidation]{color=yellow} 
   :::::
 :::::::
 
 :::::::trainer[Gym Trainer Teresa]
   :::::pokemon[Swirlix]{baseStats="[62, 48, 66, 59, 57, 49]" ivs="[5,5,5,5,5,5]" level=34 nature="Bashful" type="Fairy"}
-     - 
+     - X-Sp. Atk
+     - Answer 1
+     - Water Pledge
   :::::
   :::::pokemon[Aromatisse]{baseStats="[101, 72, 72, 99, 89, 29]" ivs="[5,5,5,5,5,5]" level=34 nature="Docile" type="Fairy"}
-     - 
+     - Water Pledge
   :::::
 :::::::
 
 :::::::trainer[Gym Trainer Theodora]
   :::::pokemon[Morgrem]{baseStats="[65, 60, 45, 75, 55, 70]" ivs="[5,5,5,5,5,5]" level=35 nature="Adamant" type="Dark/Fairy"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Gardevoir]{baseStats="[68, 65, 65, 125, 115, 80]" ivs="[5,5,5,5,5,5]" level=35 nature="Timid" type="Psychic/Fairy"}
-     - 
+     - Answer 2 
+     - (choose Answer 1 if can live Dazzling Gleam at -1)
+     - Water Pledge x2
+     ::damage[Dazzling Gleam does at -1]{source="Sobble" type=Fairy special=true level=38 combatStages=-1 evolution=2 offensive=false movePower=80}
+     ::damage[Dazzling Gleam does at +1]{source="Sobble" type=Fairy special=true level=38 combatStages=1 evolution=2 offensive=false movePower=80}
   :::::
 :::::::
+
+:info[Heal to full, unless in Torrent]{color=yellow}
 
 :::::::trainer[Gym Leader Opal]
   :::::pokemon[Weezing]{baseStats="[65, 90, 120, 85, 70, 60]" ivs="[15,15,15,15,15,15]" level=36 nature="Quirky" type="Poison/Fairy"}
-     - 
-  :::::
-  :::::pokemon[Togekiss]{baseStats="[85, 50, 95, 120, 115, 80]" ivs="[15,15,15,15,15,15]" level=37 nature="Timid" type="Fairy/Flying"}
-     - 
+     - If in torrent
+       - Water Pledge
+     - Otherwise
+       - X-Sp. Atk (do not heal Poison, unless below 30% HP)
+       - Answer 2
+       - Water Pulse
   :::::
   :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[15,15,15,15,15,15]" level=36 nature="Adamant" type="Steel/Fairy"}
-     - 
+     - If killed Weezing turn 1
+       - Answer 2
+       - Heal to full
+       - X-Sp. Atk x2
+       - Answer 2
+       - X-Sp. Atk if not in Torrent
+       - Water Pulse
+     - If poisoned
+       - [DyMax] Water Pulse
+     - Otherwise
+       - X-Sp. Atk (x2 if not in Torrent)
+       - Water Pulse
+       - (Answer 2)
+     - If only 1 X-Sp. Atk left, Rain Dance.
+     - Last answer is Answer 1
+  :::::
+  :::::pokemon[Togekiss]{baseStats="[85, 50, 95, 120, 115, 80]" ivs="[15,15,15,15,15,15]" level=37 nature="Timid" type="Fairy/Flying"}
+     - Water Pledge
   :::::
   :::::pokemon[Alcremie]{baseStats="[65, 60, 75, 110, 121, 64]" ivs="[20,20,20,20,20,20]" level=38 nature="Bold" type="Fairy"}
-     - 
-  :::::
-:::::::
-
-:::::::trainer[Pokémon Trainer Hop 6]
-  :::::pokemon[Trevenant]{baseStats="[85, 110, 76, 65, 82, 56]" ivs="[10,10,10,10,10,10]" level=34 nature="Calm" type="Ghost/Grass"}
-     - 
-  :::::
-  :::::pokemon[Heatmor]{baseStats="[85, 97, 66, 105, 66, 65]" ivs="[10,10,10,10,10,10]" level=34 nature="Careful" type="Fire"}
-     - 
-  :::::
-  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=35 nature="Bold" type="Normal"}
-     - 
-  :::::
-  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=37 nature="" type="Fire"}
-     - 
-  :::::
-  :::::pokemon[Boltund]{baseStats="[69, 90, 60, 90, 60, 121]" ivs="[10,10,10,10,10,10]" level=35 nature="Adamant" type="Electric"}
-     - 
+     - Water Pledge
   :::::
 :::::::
 
 :info[**Free heal**]{color=pink}
 
-:::::::trainer[Doctor Joanna]
-  :::::pokemon[Roselia]{baseStats="[50, 60, 45, 100, 80, 65]" ivs="[0,0,0,0,0,0]" level=36 nature="Serious" type="Grass/Poison"}
-     - 
+### Shopping (right):
+> #### Buy
+> -    2 X-Sp. Def (^^)
+> -  MAX X-Sp. Atk (^)
+
+Fly to centre Hammerlocke
+
+Head east
+
+:::::::trainer[Pokémon Trainer Hop 6]
+  :::::pokemon[Trevenant]{baseStats="[85, 110, 76, 65, 82, 56]" ivs="[10,10,10,10,10,10]" level=34 nature="Calm" type="Ghost/Grass"}
+     - X-Sp. Atk +
+     - (Heal Confusion +)
+     - (X-Defense / Energy Powder / Fresh Water / Potion for Torrent +)
+     - Water Pledge 
+
+     - :info[Torrent at 40 =]{color=blue} :calc[floor(hp / 3)]{source="Sobble" evolution=2 level=40}
+     ::damage[Horn Leech does]{source="Sobble" type=grass special=false level=40 evolution=2 offensive=false combatStages=0 movePower=75}
+     ::damage[Horn Leech does at +2]{source="Sobble" type=grass special=false level=40 evolution=2 offensive=false combatStages=2 movePower=75}
   :::::
-  :::::pokemon[Hattrem]{baseStats="[57, 40, 65, 86, 73, 49]" ivs="[0,0,0,0,0,0]" level=36 nature="Modest" type="Psychic"}
-     - 
+  :::::pokemon[Heatmor]{baseStats="[85, 97, 66, 105, 66, 65]" ivs="[10,10,10,10,10,10]" level=34 nature="Careful" type="Fire"}
+     - Water Pledge 
+  :::::
+  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=35 nature="Bold" type="Normal"}
+     - Water Pledge
+  :::::
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=37 nature="" type="Fire"}
+     - Water Pledge
+  :::::
+  :::::pokemon[Boltund]{baseStats="[69, 90, 60, 90, 60, 121]" ivs="[10,10,10,10,10,10]" level=35 nature="Adamant" type="Electric"}
+     - Water Pledge
   :::::
 :::::::
+
+:info[**Free heal**]{color=pink}
+
+If you see a Togedemaru or a Pawniard and if you have Quick Balls left, catch it. 
+
+Togedemaru is better than Pawniard [(see FAQ if you are wondering why)]{https://docs.google.com/document/d/1XKOGaz_74TI7dVQf4AxlhH3pNdqu07ASQyMCnkKtVNw/edit?usp=sharing}
+
+Keep it in your party.
+
+If you skipped the Route 6 Rare Candy earlier, do not do the catch before defeating Joanna!
+
+Go down the ladder with the female doctor
+
+:::::::trainer[Doctor Joanna]
+  :::::pokemon[Roselia]{baseStats="[50, 60, 45, 100, 80, 65]" ivs="[0,0,0,0,0,0]" level=36 nature="Serious" type="Grass/Poison"}
+     - X-Sp. Atk 
+     - Water Pledge
+  :::::
+  :::::pokemon[Hattrem]{baseStats="[57, 40, 65, 86, 73, 49]" ivs="[0,0,0,0,0,0]" level=36 nature="Modest" type="Psychic"}
+     - Water Pledge
+  :::::
+:::::::
+
+**Pickup 3 hidden X-Defenses** after climbing the ladder
+
+In the icy area
+  - Hug the top of the path to avoid police officer
+
+**Get TM27 Icy Wind** in the first house after the Pokémon Center from the guy
 
 **Head** for the **stadium**
 
@@ -959,26 +1065,25 @@ Do 1st **Gym Trainer skip**
 
 ![GymTrainerskip](1stGymTrainerskip.gif)
 
-:::::::trainer[Gym Trainer Abigail]
-  :::::pokemon[Boldore]{baseStats="[70, 105, 105, 50, 40, 20]" ivs="[0,0,0,0,0,0]" level=38 nature="Calm" type="Rock"}
-     - 
-  :::::
-:::::::
 
 ![CirchesterGymPuzzle](CirchesterGymPuzzle.png)
 
 :::::::trainer[Gym Leader Gordie]
   :::::pokemon[Barbaracle]{baseStats="[72, 105, 115, 54, 86, 68]" ivs="[15,15,15,15,15,15]" level=40 nature="Adamant" type="Rock/Water"}
-     - 
+     - X-Sp. Atk
+    :::if{source="Sobble" condition="speed=~(x/9+/#)"}
+       - If got hit by Rock Tomb X-Speed
+    :::
+     - Water Pledge
   :::::
   :::::pokemon[Shuckle]{baseStats="[20, 10, 230, 10, 230, 5]" ivs="[15,15,15,15,15,15]" level=40 nature="Quiet" type="Bug/Rock"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Stonjourner]{baseStats="[100, 125, 135, 20, 20, 70]" ivs="[15,15,15,15,15,15]" level=41 nature="Jolly" type="Rock"}
-     - 
+     - Water Pledge
   :::::
   :::::pokemon[Coalossal]{baseStats="[110, 80, 120, 80, 90, 30]" ivs="[20,20,20,20,20,20]" level=42 nature="Adamant" type="Rock/Fire"}
-     - 
+     - Water Pledge
   :::::
 :::::::
 
@@ -990,19 +1095,23 @@ Go down **left side** for the **restaurant**
 
 :::::::trainer[Pokémon Trainer Hop 7]
   :::::pokemon[Dubwool]{baseStats="[72, 80, 100, 60, 90, 88]" ivs="[5,5,5,5,5,5]" level=40 nature="Hasty" type="Normal"}
-     - 
-  :::::
-  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[15,15,15,15,15,15]" level=40 nature="Jolly" type="Flying/Steel"}
-     - 
-  :::::
-  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=39 nature="Bold" type="Normal"}
-     - 
-  :::::
-  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=41 nature="" type="Fire"}
-     - 
+     - X-Sp. Atk
+     - Rain Dance
+     - Water Pledge
+     - If cannot tank another hit and are in Torrent after 3 Hails, skip Rain Dance
+     :info[Hail Does]{color=blue} :calc[floor(hp / 16)]{source="Sobble" level=43}
   :::::
   :::::pokemon[Pincurchin]{baseStats="[48, 101, 95, 91, 85, 15]" ivs="[10,10,10,10,10,10]" level=39 nature="Sassy" type="Electric"}
-     - 
+     -  Water Pulse
+  :::::
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=41 nature="" type="Fire"}
+     - Water Pulse
+  :::::
+  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=39 nature="Bold" type="Normal"}
+     - Water Pledge
+  :::::
+  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[15,15,15,15,15,15]" level=40 nature="Jolly" type="Flying/Steel"}
+     - Water Pledge
   :::::
 :::::::
 
@@ -1010,12 +1119,18 @@ Head **right and down**
 
 Hug the **right side of the wall** to dodge the dancer
 
+:info[Heal to full unless in high Torrent]{color=yellow}
+
 :::::::trainer[Team Yell Grunt]
   :::::pokemon[Linoone]{baseStats="[78, 70, 61, 50, 61, 100]" ivs="[0,0,0,0,0,0]" level=39 nature="Jolly" type="Dark/Normal"}
-     - 
+     - Out of Torrent:
+       - Rain Dance 
+       - Water Pulse
+     - In Torrent 
+       - Water Pulse
   :::::
   :::::pokemon[Pangoro]{baseStats="[95, 124, 78, 69, 71, 58]" ivs="[0,0,0,0,0,0]" level=40 nature="Adamant" type="Fighting/Dark"}
-     - 
+     - Water Pledge    
   :::::
 :::::::
 
@@ -1025,121 +1140,157 @@ Go right
 
 :::::::trainer[Pokémon Trainer Marnie 2]
   :::::pokemon[Liepard]{baseStats="[64, 88, 50, 88, 50, 106]" ivs="[15,15,15,15,15,15]" level=42 nature="Timid" type="Dark"}
-     - 
+     - (Energy Root)
+       - If you are already almost full HP, skip Energy Root 
+     - X-Sp. Atk x3
+     - Swift
   :::::
-
-  :::::pokemon[Toxicroak]{baseStats="[83, 106, 65, 86, 65, 85]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Poison/Fighting"}
-     - 
-  :::::
-
-  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Dark/Fighting"}
-     - 
-  :::::
-
   :::::pokemon[Morpeko]{baseStats="[58, 95, 58, 70, 58, 97]" ivs="[15,15,15,15,15,15]" level=44 nature="Jolly" type="Electric/Dark"}
-     - 
+     - Swift / Water Pulse
+  :::::
+  :::::pokemon[Toxicroak]{baseStats="[83, 106, 65, 86, 65, 85]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Poison/Fighting"}
+     - Swift
+  :::::
+  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Dark/Fighting"}
+     - Water Pulse
   :::::
 :::::::
+
+Withdraw both Litwicks if did not catch Pawniard or Togedemaru
 
 Head inside **Spikemuth**
 
 :::::::trainer[Team Yell Grunt]
   :::::pokemon[Linoone]{baseStats="[78, 70, 61, 50, 61, 100]" ivs="[0,0,0,0,0,0]" level=42 nature="Jolly" type="Dark/Normal"}
-     - 
-  :::::
+     - Water Pledge (+ Swift)
 :::::::
+
+Run to Mr. Mime's wall and go back
 
 :::::::trainer[Team Yell Grunt]
   :::::pokemon[Thievul]{baseStats="[70, 58, 58, 87, 92, 90]" ivs="[0,0,0,0,0,0]" level=42 nature="Jolly" type="Dark"}
-     - 
+     - In Torrent
+       - Water Pledge
+     - Otherwise
+       - Water Pledge 
+       - Water Pulse  
   :::::
 :::::::
+
+:info[Heal to full if yellow HP (unless going for Torrent range)]{color=yellow}
 
 :::::::trainer[Team Yell Grunt]
   :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[0,0,0,0,0,0]" level=42 nature="Adamant" type="Dark/Fighting"}
-     - 
+    :::if{source="Sobble" condition="spatk=(x/x/18+)"}
+       - In Torrent
+         - Water Pledge
+    :::
+     - Water Pledge
+     - Water Pulse
   :::::
 :::::::
+
+:info[Heal if in yellow HP]{color=yellow}
+
+Run to Mr. Mime's wall and go back
 
 :::::::trainer[Team Yell Grunt]
   :::::pokemon[Weavile]{baseStats="[70, 120, 65, 45, 85, 125]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Dark/Ice"}
-     - 
+     - Water Pulse x2
+     - :info[Do not teach Soak]{color=yellow}
   :::::
 :::::::
 
+:info[Heal to full if took considerable damage]{color=yellow}
+
 :::::::trainer[Gym Trainer Joshua + Team Yell Grunt (double)]
-  :::::pokemon[Drapion]{baseStats="[70, 90, 110, 60, 75, 95]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Poison/Dark"}
-     - 
-  :::::
-  :::::pokemon[Liepard]{baseStats="[64, 88, 50, 88, 50, 106]" ivs="[0,0,0,0,0,0]" level=43 nature="Jolly" type="Dark"}
-     - 
+  :::::pokemon[Drapion & Liepard]{info="If you have Litwick, aim for Liepard first"}
+     - Water Pulse Drapion | X-Sp. Atk
+     - Water Pulse Liepard | Heal Inteleon
   :::::
 :::::::
 
 :::::::trainer[Gym Leader Piers]
   :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=44 nature="Adamant" type="Dark/Fighting"}
-     - 
+     - X-Sp. Atk + Water Pledge
+     - If you get Sand Attacked, 
+       - X-Sp. Atk (+ X-Defense)
+       - X-Accuracy
+     - If you got Payback or Brick Break, 
+       - X-Defense
+       - X-Sp. Atk
+     - Heal as needed in any of the situations above
+     - You can use all your X-Accuracies on this fight if needed
   :::::
   :::::pokemon[Malamar]{baseStats="[86, 92, 88, 68, 75, 73]" ivs="[15,15,15,15,15,15]" level=45 nature="Adamant" type="Dark/Psychic"}
-     - 
+     - X-Sp. Atk (unless you used two already)
+     - Water Pulse
   :::::
   :::::pokemon[Obstagoon]{baseStats="[93, 90, 101, 60, 81, 95]" ivs="[20,20,20,20,20,20]" level=46 nature="Relaxed" type="Dark/Normal"}
-     - 
+     - In torrent
+       - Water Pulse
+     - Otherwise
+       - Water Pledge
   :::::
   :::::pokemon[Skuntank]{baseStats="[103, 93, 67, 71, 61, 84]" ivs="[15,15,15,15,15,15]" level=45 nature="Brave" type="Poison/Dark"}
-     - 
+     - (Heal if in Sucker Punch range)
+     - Water Pulse
+     
+     ::damage[Sucker Punch does]{source="Sobble" type=Dark special=false level=47 evolution=2 offensive=false combatStages=0 movePower=70}
+     ::damage[Sucker Punch +2 does]{source="Sobble" type=Dark special=false level=47 evolution=2 offensive=false combatStages=2 movePower=70}
   :::::
 :::::::
 
 :info[**Free heal**]{color=pink}
 
-Head for the tunnel
->Use **Flying Taxi** to the **central Pokémon Cente** in **Hammerlocke**
->**Go RIGH**T (no bike, immediate cutscene)
->**Head inside** the stadium
+After leaving the tunnel
+ - Go a step west
+
+Teach **Icy Wind** over Swift **(Slot 2)**
+
+Fly to **Hammerlocke**
+
+Head to the gym
+
 
 :::::::trainer[Gym Trainer Sebastian (double)]
-  :::::pokemon[Pelipper]{baseStats="[60, 50, 100, 95, 70, 65]" ivs="[5,5,5,5,5,5]" level=45 nature="Calm" type="Water/Flying"}
-     - 
-  :::::
-  :::::pokemon[Sliggoo]{baseStats="[68, 75, 53, 83, 113, 60]" ivs="[5,5,5,5,5,5]" level=45 nature="Bold" type="Dragon"}
-     - 
+  :::::pokemon[Pelipper & Sliggoo]
+     - Water Pledge Pelipper | X-Sp. Atk Inteleon
+     - Water Pledge Sliggoo  | X-Sp. Atk
   :::::
 :::::::
 
+:info[Do not revive Litwick]{infoColor=yellow}
+
 :::::::trainer[Gym Trainer Camilla (double)]
-  :::::pokemon[Turtonator]{baseStats="[60, 78, 135, 91, 85, 36]" ivs="[5,5,5,5,5,5]" level=45 nature="Sassy" type="Fire/Dragon"}
-     - 
-  :::::
-  :::::pokemon[Ninetales]{baseStats="[73, 76, 75, 81, 100, 100]" ivs="[5,5,5,5,5,5]" level=45 nature="Bold" type="Fire"}
-     - 
+  :::::pokemon[Turtonator & Ninetales]
+     - Water Pledge Ninetales  | X-Sp. Atk
+     - Water Pledge Turtonator | X-Sp. Atk
   :::::
 :::::::
 
 :::::::trainer[Gym Trainer Aria (double)]
-  :::::pokemon[Hakamo-o]{baseStats="[55, 75, 90, 65, 70, 65]" ivs="[5,5,5,5,5,5]" level=45 nature="Careful" type="Dragon/Fighting"}
-     - 
-  :::::
-  :::::pokemon[Abomasnow]{baseStats="[90, 92, 75, 92, 85, 60]" ivs="[5,5,5,5,5,5]" level=45 nature="Quiet" type="Grass/Ice"}
-     - 
+  :::::pokemon[Hakamo-o & Abomasnow]{baseStats="[90, 92, 75, 92, 85, 60]" ivs="[5,5,5,5,5,5]" level=45 nature="Quiet" type="Grass/Ice"}
+     - Icy Wind | X-Sp. Atk (again if Hakamo-o didn’t faint)
+     - Water Pledge | X-Sp. Atk (if Aurora Veil) OR Energy Root (otherwise)
+     ::damage[Abomasnow's Razor Leaf does]{source="Sobble" type=grass multiTarget=true special=false level=48 evolution=2 offensive=false combatStages=0 movePower=55}
   :::::
 :::::::
 
-:info[**Free heal**]{color=pink}
-:info[if you only had 1 Pokémon left]{color=yellow}
+:info[Heal out of Thunder Punch + 2 Sand Storm hits range]{color=yellow}
+
+:info[Sandstorm x2 does]{color=blue} :calc[floor(hp / 8)]{source="Sobble" level=49}
+
+Revive all Litwicks or heal Pawniard / Togedemaru to full-ish
+
+
 
 :::::::trainer[Gym Leader Raihan]
-  :::::pokemon[Gigalith]{baseStats="[85, 135, 130, 60, 80, 25]" ivs="[15,15,15,15,15,15]" level=46 nature="Careful type="Rock"}
-     - 
-  :::::
-  :::::pokemon[Sandaconda]{baseStats="[72, 107, 125, 65, 70, 71]" ivs="[15,15,15,15,15,15]" level=46 nature="Calm" type="Ground"}
-     - 
-  :::::
-  :::::pokemon[Duraludon]{baseStats="[70, 95, 115, 120, 50, 85]" ivs="[20,20,20,20,20,20]" level=48 nature="Jolly" type="Steel/Dragon"}
-     - 
-  :::::
-  :::::pokemon[Flygon]{baseStats="[80, 100, 80, 80, 80, 100]" ivs="[15,15,15,15,15,15]" level=47 nature="Jolly" type="Ground/Dragon"}
-     - 
+  :::::pokemon[Gigalith/Flygon/Sandaconda/Duraludon]{baseStats="[80, 100, 80, 80, 80, 100]" ivs="[15,15,15,15,15,15]" level=47 nature="Jolly" type="Ground/Dragon"}
+     - Water Pledge Gigalith | X-Sp. Atk
+     - Icy Wind Flygon and Sandaconda | X-Sp. Atk    
+     - Water Pledge Duraludon | X-Sp. Atk
+     ::damage[Flygon’s Thunder Punch does]{source="Sobble" type=electric special=false level=49 evolution=2 offensive=false combatStages=0 movePower=75}
   :::::
 :::::::
 
