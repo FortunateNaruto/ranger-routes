@@ -795,21 +795,694 @@ Pickup 2 X-Sp. Atk
 - _Can be skipped if used only 2 on Kabu or 1 on Marnie_
 
 
-:::::::trainer[]
-  :::::pokemon[]
-    :::if{source="" condition=""}
-    :::
+:::::::trainer[Pokémon Trainer Hop 5]
+  :::::pokemon[Cramorant]{baseStats="[70, 85, 55, 85, 95, 85]" ivs="[10,10,10,10,10,10]" level=29 nature="Hasty" type="Flying/Water"}
+     ::damage[Pluck Does]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=60} 
   :::::
-  :::::pokemon[]
-    :::if{source="" condition=""}
-    :::
+  :::::pokemon[Toxel]{baseStats="[40, 38, 35, 54, 35, 40]" ivs="[10,10,10,10,10,10]" level=29  nature="Bold" type="Electric/Poison"}
+     - Swift
   :::::
-  :::::pokemon[]
-    :::if{source="" condition=""}
-    :::
+  :::::pokemon[Silicobra]{baseStats="[52, 57, 75, 35, 50, 46]" ivs="[10,10,10,10,10,10]" level=30 nature="Bold" type="Ground"}
+     - Swift
   :::::
-  :::::pokemon[]
-    :::if{source="" condition=""}
-    :::
+  :::::pokemon[Raboot]{baseStats="[65, 86, 60, 55, 60, 94]" ivs="[15,15,15,25,25,20]" level=33 nature="" type="Fire"}
+     - Water Pulse/Swift
+     ::damage[Doulbe Kick +0 Does]{source="Sobble" level=33 type=Flying evolution=1 special=false offensive=false theme=error movePower=30 otherModifer=2} 
+     ::damage[Doulbe Kick -1 Does]{source="Sobble" level=33 type=Flying combatStages=-1 evolution=1 special=false offensive=false theme=error movePower=30 otherModifer=2} 
+  :::::
+:::::::
+
+**Head forward** for the **stadium**
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Gym Trainer Ian]
+  :::::pokemon[Stufful]{baseStats="[70, 75, 50, 45, 50, 50]" ivs="[5,5,5,5,5,5]" level=31 nature="Adamant" type="Normal/Fighting"}
+     - 
+  :::::
+  :::::pokemon[Bewear]{baseStats="[120, 125, 80, 55, 60, 60]" ivs="[5,5,5,5,5,5]" level=32 nature="Modest" type="Normal/Fighting"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Claire]
+  :::::pokemon[Farfetch'd]{baseStats="[52, 95, 55, 58, 62, 55]" ivs="[5,5,5,5,5,5]" level=32 nature="Lonely" type="Fighting"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Simon]
+  :::::pokemon[Hitmonlee]{baseStats="[50, 120, 53, 35, 110, 87]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Hitmonchan]{baseStats="[50, 105, 79, 35, 110, 76]" ivs="[5,5,5,5,5,5]" level=33 nature="Modest" type="Fighting"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Leader Bea 1]
+  :::::pokemon[Hitmontop]{baseStats="[50, 95, 95, 35, 110, 70]" ivs="[15,15,15,15,15,15]" level=34 nature="Adamant" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Pangoro]{baseStats="[95, 124, 78, 69, 71, 58]" ivs="[15,15,15,15,15,15]" level=34 nature="Careful" type="Fighting/Dark"}
+     - 
+  :::::
+  :::::pokemon[Sirfetch'd]{baseStats="[62, 135, 95, 68, 82, 65]" ivs="[15,15,15,15,15,15]" level=35 nature="Impish" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Machamp]{baseStats="[90, 130, 80, 65, 85, 55]" ivs="[20,20,20,20,20,20]" level=36 nature="Careful" type="Fighting"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+Head **LEFT** and **up the stairs**
+
+:::::::trainer[Pokémon Trainer Bede]
+  :::::pokemon[Duosion]{baseStats="[65, 40, 50, 125, 60, 30]" ivs="[15,15,15,15,15,15]" level=32 nature="Modest" type="Psychic"}
+     - 
+  :::::
+  :::::pokemon[Hattrem]{baseStats="[57, 40, 65, 86, 73, 49]" ivs="[15,15,15,15,15,15]" level=35 nature="Modest" type="Psychic"}
+     - 
+  :::::
+  :::::pokemon[Gothorita]{baseStats="[60, 45, 70, 75, 85, 55]" ivs="[15,15,15,15,15,15]" level=32 nature="Bold" type="Psychic"}
+     - 
+  :::::
+  :::::pokemon[Ponyta]{baseStats="[50, 85, 55, 65, 65, 90]" ivs="[15,15,15,15,15,15]" level=33 nature="Adamant" type="Psychic"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+Head **down the stairs again** and 
+
+**Right** through the **Glimwood Tangle**
+
+**Head for the stadium**
+
+:::::::trainer[Gym Trainer Annette]
+  :::::pokemon[Spritzee]{baseStats="[78, 52, 60, 63, 65, 23]" ivs="[5,5,5,5,5,5]" level=34 nature="Docile" type="Fairy"}
+     - 
+  :::::
+  :::::pokemon[Slurpuff]{baseStats="[82, 80, 86, 85, 75, 72]" ivs="[5,5,5,5,5,5]" level=34 nature="Bashful" type="Fairy"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Teresa]
+  :::::pokemon[Swirlix]{baseStats="[62, 48, 66, 59, 57, 49]" ivs="[5,5,5,5,5,5]" level=34 nature="Bashful" type="Fairy"}
+     - 
+  :::::
+  :::::pokemon[Aromatisse]{baseStats="[101, 72, 72, 99, 89, 29]" ivs="[5,5,5,5,5,5]" level=34 nature="Docile" type="Fairy"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Theodora]
+  :::::pokemon[Morgrem]{baseStats="[65, 60, 45, 75, 55, 70]" ivs="[5,5,5,5,5,5]" level=35 nature="Adamant" type="Dark/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Gardevoir]{baseStats="[68, 65, 65, 125, 115, 80]" ivs="[5,5,5,5,5,5]" level=35 nature="Timid" type="Psychic/Fairy"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Leader Opal]
+  :::::pokemon[Weezing]{baseStats="[65, 90, 120, 85, 70, 60]" ivs="[15,15,15,15,15,15]" level=36 nature="Quirky" type="Poison/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Togekiss]{baseStats="[85, 50, 95, 120, 115, 80]" ivs="[15,15,15,15,15,15]" level=37 nature="Timid" type="Fairy/Flying"}
+     - 
+  :::::
+  :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[15,15,15,15,15,15]" level=36 nature="Adamant" type="Steel/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Alcremie]{baseStats="[65, 60, 75, 110, 121, 64]" ivs="[20,20,20,20,20,20]" level=38 nature="Bold" type="Fairy"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Pokémon Trainer Hop 6]
+  :::::pokemon[Trevenant]{baseStats="[85, 110, 76, 65, 82, 56]" ivs="[10,10,10,10,10,10]" level=34 nature="Calm" type="Ghost/Grass"}
+     - 
+  :::::
+  :::::pokemon[Heatmor]{baseStats="[85, 97, 66, 105, 66, 65]" ivs="[10,10,10,10,10,10]" level=34 nature="Careful" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=35 nature="Bold" type="Normal"}
+     - 
+  :::::
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=37 nature="" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Boltund]{baseStats="[69, 90, 60, 90, 60, 121]" ivs="[10,10,10,10,10,10]" level=35 nature="Adamant" type="Electric"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Doctor Joanna]
+  :::::pokemon[Roselia]{baseStats="[50, 60, 45, 100, 80, 65]" ivs="[0,0,0,0,0,0]" level=36 nature="Serious" type="Grass/Poison"}
+     - 
+  :::::
+  :::::pokemon[Hattrem]{baseStats="[57, 40, 65, 86, 73, 49]" ivs="[0,0,0,0,0,0]" level=36 nature="Modest" type="Psychic"}
+     - 
+  :::::
+:::::::
+
+**Head** for the **stadium**
+
+Do 1st **Gym Trainer skip**
+
+![GymTrainerskip](1stGymTrainerskip.gif)
+
+:::::::trainer[Gym Trainer Abigail]
+  :::::pokemon[Boldore]{baseStats="[70, 105, 105, 50, 40, 20]" ivs="[0,0,0,0,0,0]" level=38 nature="Calm" type="Rock"}
+     - 
+  :::::
+:::::::
+
+![CirchesterGymPuzzle](CirchesterGymPuzzle.png)
+
+:::::::trainer[Gym Leader Gordie]
+  :::::pokemon[Barbaracle]{baseStats="[72, 105, 115, 54, 86, 68]" ivs="[15,15,15,15,15,15]" level=40 nature="Adamant" type="Rock/Water"}
+     - 
+  :::::
+  :::::pokemon[Shuckle]{baseStats="[20, 10, 230, 10, 230, 5]" ivs="[15,15,15,15,15,15]" level=40 nature="Quiet" type="Bug/Rock"}
+     - 
+  :::::
+  :::::pokemon[Stonjourner]{baseStats="[100, 125, 135, 20, 20, 70]" ivs="[15,15,15,15,15,15]" level=41 nature="Jolly" type="Rock"}
+     - 
+  :::::
+  :::::pokemon[Coalossal]{baseStats="[110, 80, 120, 80, 90, 30]" ivs="[20,20,20,20,20,20]" level=42 nature="Adamant" type="Rock/Fire"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+Go down **left side** for the **restaurant**
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Pokémon Trainer Hop 7]
+  :::::pokemon[Dubwool]{baseStats="[72, 80, 100, 60, 90, 88]" ivs="[5,5,5,5,5,5]" level=40 nature="Hasty" type="Normal"}
+     - 
+  :::::
+  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[15,15,15,15,15,15]" level=40 nature="Jolly" type="Flying/Steel"}
+     - 
+  :::::
+  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=39 nature="Bold" type="Normal"}
+     - 
+  :::::
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=41 nature="" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Pincurchin]{baseStats="[48, 101, 95, 91, 85, 15]" ivs="[10,10,10,10,10,10]" level=39 nature="Sassy" type="Electric"}
+     - 
+  :::::
+:::::::
+
+Head **right and down**
+
+Hug the **right side of the wall** to dodge the dancer
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Linoone]{baseStats="[78, 70, 61, 50, 61, 100]" ivs="[0,0,0,0,0,0]" level=39 nature="Jolly" type="Dark/Normal"}
+     - 
+  :::::
+  :::::pokemon[Pangoro]{baseStats="[95, 124, 78, 69, 71, 58]" ivs="[0,0,0,0,0,0]" level=40 nature="Adamant" type="Fighting/Dark"}
+     - 
+  :::::
+:::::::
+
+Go right
+>hug left wall
+>go around fisher and down
+
+:::::::trainer[Pokémon Trainer Marnie 2]
+  :::::pokemon[Liepard]{baseStats="[64, 88, 50, 88, 50, 106]" ivs="[15,15,15,15,15,15]" level=42 nature="Timid" type="Dark"}
+     - 
+  :::::
+
+  :::::pokemon[Toxicroak]{baseStats="[83, 106, 65, 86, 65, 85]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Poison/Fighting"}
+     - 
+  :::::
+
+  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=43 nature="Adamant" type="Dark/Fighting"}
+     - 
+  :::::
+
+  :::::pokemon[Morpeko]{baseStats="[58, 95, 58, 70, 58, 97]" ivs="[15,15,15,15,15,15]" level=44 nature="Jolly" type="Electric/Dark"}
+     - 
+  :::::
+:::::::
+
+Head inside **Spikemuth**
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Linoone]{baseStats="[78, 70, 61, 50, 61, 100]" ivs="[0,0,0,0,0,0]" level=42 nature="Jolly" type="Dark/Normal"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Thievul]{baseStats="[70, 58, 58, 87, 92, 90]" ivs="[0,0,0,0,0,0]" level=42 nature="Jolly" type="Dark"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[0,0,0,0,0,0]" level=42 nature="Adamant" type="Dark/Fighting"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Team Yell Grunt]
+  :::::pokemon[Weavile]{baseStats="[70, 120, 65, 45, 85, 125]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Dark/Ice"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Joshua + Team Yell Grunt (double)]
+  :::::pokemon[Drapion]{baseStats="[70, 90, 110, 60, 75, 95]" ivs="[0,0,0,0,0,0]" level=43 nature="Careful" type="Poison/Dark"}
+     - 
+  :::::
+  :::::pokemon[Liepard]{baseStats="[64, 88, 50, 88, 50, 106]" ivs="[0,0,0,0,0,0]" level=43 nature="Jolly" type="Dark"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Leader Piers]
+  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=44 nature="Adamant" type="Dark/Fighting"}
+     - 
+  :::::
+  :::::pokemon[Malamar]{baseStats="[86, 92, 88, 68, 75, 73]" ivs="[15,15,15,15,15,15]" level=45 nature="Adamant" type="Dark/Psychic"}
+     - 
+  :::::
+  :::::pokemon[Obstagoon]{baseStats="[93, 90, 101, 60, 81, 95]" ivs="[20,20,20,20,20,20]" level=46 nature="Relaxed" type="Dark/Normal"}
+     - 
+  :::::
+  :::::pokemon[Skuntank]{baseStats="[103, 93, 67, 71, 61, 84]" ivs="[15,15,15,15,15,15]" level=45 nature="Brave" type="Poison/Dark"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+Head for the tunnel
+>Use **Flying Taxi** to the **central Pokémon Cente** in **Hammerlocke**
+>**Go RIGH**T (no bike, immediate cutscene)
+>**Head inside** the stadium
+
+:::::::trainer[Gym Trainer Sebastian (double)]
+  :::::pokemon[Pelipper]{baseStats="[60, 50, 100, 95, 70, 65]" ivs="[5,5,5,5,5,5]" level=45 nature="Calm" type="Water/Flying"}
+     - 
+  :::::
+  :::::pokemon[Sliggoo]{baseStats="[68, 75, 53, 83, 113, 60]" ivs="[5,5,5,5,5,5]" level=45 nature="Bold" type="Dragon"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Camilla (double)]
+  :::::pokemon[Turtonator]{baseStats="[60, 78, 135, 91, 85, 36]" ivs="[5,5,5,5,5,5]" level=45 nature="Sassy" type="Fire/Dragon"}
+     - 
+  :::::
+  :::::pokemon[Ninetales]{baseStats="[73, 76, 75, 81, 100, 100]" ivs="[5,5,5,5,5,5]" level=45 nature="Bold" type="Fire"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gym Trainer Aria (double)]
+  :::::pokemon[Hakamo-o]{baseStats="[55, 75, 90, 65, 70, 65]" ivs="[5,5,5,5,5,5]" level=45 nature="Careful" type="Dragon/Fighting"}
+     - 
+  :::::
+  :::::pokemon[Abomasnow]{baseStats="[90, 92, 75, 92, 85, 60]" ivs="[5,5,5,5,5,5]" level=45 nature="Quiet" type="Grass/Ice"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+:info[if you only had 1 Pokémon left]{color=yellow}
+
+:::::::trainer[Gym Leader Raihan]
+  :::::pokemon[Gigalith]{baseStats="[85, 135, 130, 60, 80, 25]" ivs="[15,15,15,15,15,15]" level=46 nature="Careful type="Rock"}
+     - 
+  :::::
+  :::::pokemon[Sandaconda]{baseStats="[72, 107, 125, 65, 70, 71]" ivs="[15,15,15,15,15,15]" level=46 nature="Calm" type="Ground"}
+     - 
+  :::::
+  :::::pokemon[Duraludon]{baseStats="[70, 95, 115, 120, 50, 85]" ivs="[20,20,20,20,20,20]" level=48 nature="Jolly" type="Steel/Dragon"}
+     - 
+  :::::
+  :::::pokemon[Flygon]{baseStats="[80, 100, 80, 80, 80, 100]" ivs="[15,15,15,15,15,15]" level=47 nature="Jolly" type="Ground/Dragon"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+**Head** for the **station**
+
+:::::::trainer[Doctor Graham]
+  :::::pokemon[Gardevoir]{baseStats="[68, 65, 65, 125, 115, 80]" ivs="[0,0,0,0,0,0]" level=45 nature="Modest" type="Psychic/Fairy"}
+     - 
+  :::::
+:::::::
+
+_(can choose either **Postman Harper or Cabbie Geoffrey**)_
+
+:::::::trainer[Postman Harper]
+  :::::pokemon[Pelipper]{baseStats="[60, 50, 100, 95, 70, 65]" ivs="[0,0,0,0,0,0]" level=46 nature="Calm" type="Water/Flying"}
+     - 
+  :::::
+  :::::pokemon[Noctowl]{baseStats="[100, 50, 50, 86, 96, 70]" ivs="[0,0,0,0,0,0]" level=46 nature="Bold" type="Normal/Flying"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Cabbie Geoffrey]
+  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[0,0,0,0,0,0]" level=45 nature="Bold" type="Flying/Steel"}
+     - 
+  :::::
+  :::::pokemon[Flygon]{baseStats="[80, 100, 80, 80, 80, 100]" ivs="[0,0,0,0,0,0]" level=46 nature="" type="Ground/Dragon"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Hiker Donald]
+  :::::pokemon[Gigalith]{baseStats="[85, 135, 130, 60, 80, 25]" ivs="[0,0,0,0,0,0]" level=46 nature="Adamant" type="Rock"}
+     - 
+  :::::
+  :::::pokemon[Rhydon]{baseStats="[105, 130, 120, 45, 45, 40]" ivs="[0,0,0,0,0,0]" level=46 nature="Brave" type="Ground/Rock"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Gentleman Glenn]
+  :::::pokemon[Darmanitan]{baseStats="[105, 140, 55, 30, 55, 95]" ivs="[0,0,0,0,0,0]" level=46 nature="Jolly" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Falinks]{baseStats="[65, 100, 100, 70, 60, 75]" ivs="[0,0,0,0,0,0]" level=46 nature="Jolly" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Grapploct]{baseStats="[80, 118, 90, 70, 80, 42]" ivs="[0,0,0,0,0,0]" level=46 nature="Calm" type="Fighting"}
+     - 
+  :::::
+:::::::
+
+Skip camera crew by **only having 1 alive Pokémon** in your party
+>Use **Flying Taxi** to **north Pokémon Center (X > + > up+right)**
+>Go **RIGHT** for the **stadium**
+
+:::::::trainer[Pokémon Trainer Marnie 3]
+  :::::pokemon[Liepard]{baseStats="[64, 88, 50, 88, 50, 106]" ivs="[15,15,15,15,15,15]" level=47 nature="Timid" type="Dark"}
+     - 
+  :::::
+  :::::pokemon[Toxicroak]{baseStats="[83, 106, 65, 86, 65, 85]" ivs="[15,15,15,15,15,15]" level=47 nature="Adamant" type="Poison/Fighting"}
+     - 
+  :::::
+  :::::pokemon[Scrafty]{baseStats="[65, 90, 115, 45, 115, 58]" ivs="[15,15,15,15,15,15]" level=47 nature="Adamant" type="Dark/Fighting"}
+     - 
+  :::::
+  :::::pokemon[Morpeko]{baseStats="[58, 95, 58, 70, 58, 97]" ivs="[15,15,15,15,15,15]" level=48 nature="Jolly" type="Electric/Dark"}
+     - 
+  :::::
+  :::::pokemon[Grimmsnarl]{baseStats="[95, 120, 65, 95, 75, 60]" ivs="[15,15,15,15,15,15]" level=49 nature="Adamant" type="Dark/Fairy"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Pokémon Trainer Hop 8]
+  :::::pokemon[Dubwool]{baseStats="[72, 80, 100, 60, 90, 88]" ivs="[5,5,5,5,5,5]" level=48 nature="Hasty" type="Normal"}
+     - 
+  :::::
+  :::::pokemon[Pincurchin]{baseStats="[48, 101, 95, 91, 85, 15]" ivs="[25,25,25,25,25,5]" level=47 nature="Sassy" type="Electric"}
+     - 
+  :::::
+  :::::pokemon[Corviknight]{baseStats="[98, 87, 105, 53, 85, 67]" ivs="[15,15,15,15,15,15]" level=48 nature="Jolly" type="Flying/Steel"}
+     - 
+  :::::
+  :::::pokemon[Snorlax]{baseStats="[160, 110, 65, 65, 110, 30]" ivs="[10,10,10,10,10,10]" level=47 nature="Bold" type="Normal"}
+     - 
+  :::::
+  :::::pokemon[Cinderace]{baseStats="[80, 116, 75, 65, 75, 119]" ivs="[15,15,15,25,25,20]" level=49 nature="" type="Fire"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+North-East
+![North East](northeast.png)
+
+:::::::trainer[Macro Cosmos’s Eric 1 (Speed +2)]
+  :::::pokemon[Meowth]{baseStats="[50, 65, 55, 40, 40, 40]" ivs="[0,0,0,0,0,0]" level=47 nature="Jolly" type="Steel"}
+     - 
+  :::::
+  :::::pokemon[Durant]{baseStats="[58, 109, 112, 48, 48, 109]" ivs="[0,0,0,0,0,0]" level=47 nature="Jolly" type="Bug/Steel"}
+     - 
+  :::::
+:::::::
+
+Outer Fountain (move left)
+![Outer Fountain](outerfountain.png)
+
+:::::::trainer[Macro Cosmos’s Eric 2 (Defense +2)]
+  :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[0,0,0,0,0,0]" level=47 nature="Adamant" type="Steel/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Excadrill]{baseStats="[110, 135, 60, 50, 65, 88]" ivs="[0,0,0,0,0,0]" level=47 nature="Adamant" type="Ground/Steel"}
+     - 
+  :::::
+:::::::
+
+Phone booth (move left)
+![Phone booth](phonebooth.png)
+
+:::::::trainer[Macro Cosmos’s Eric 3 (Offense +2)]
+  :::::pokemon[Ferroseed]{baseStats="[44, 50, 91, 24, 86, 10]" ivs="[0,0,0,0,0,0]" level=47 nature="Calm" type="Grass/Steel"}
+     - 
+  :::::
+  :::::pokemon[Steelix]{baseStats="[75, 85, 200, 55, 65, 30]" ivs="[0,0,0,0,0,0]" level=47 nature="Calm" type="Steel/Ground"}
+     - 
+  :::::
+:::::::
+
+:::::::trainer[Macro Cosmos’s Elijah]
+  :::::pokemon[Durant]{baseStats="[58, 109, 112, 48, 48, 109]" ivs="[0,0,0,0,0,0]" level=48 nature="Naughty" type="Bug/Steel"}
+     - 
+  :::::
+:::::::
+
+_Hop’s Dubwool has 102 speed72, 80, 100, 60, 90, 8Normal8_
+
+:::::::trainer[Macro Cosmos’s Mateo & Jane (double w/ Hop)]
+  :::::pokemon[Cufant]{baseStats="[72, 80, 49, 40, 49, 40]" ivs="[0,0,0,0,0,0]" level=48 nature="Calm" type="Steel"}
+     - 
+  :::::
+  :::::pokemon[Bronzong]{baseStats="[67, 89, 116, 79, 116, 33]" ivs="[0,0,0,0,0,0]" level=48 nature="Bold" type="Steel/Psychic"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Macro Cosmos’s Carla & Kevin (double w/ Hop)]
+  :::::pokemon[Klang]{baseStats="[60, 80, 95, 70, 85, 50]" ivs="[0,0,0,0,0,0]" level=48 nature="Jolly" type="Steel"}
+     - 
+  :::::
+  :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[0,0,0,0,0,0]" level=48 nature="Adamant" type="Steel/Fairy"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Macro Cosmos’s Justin & Adalyn (double w/ Hop)]
+  :::::pokemon[Stunfisk]{baseStats="[109, 81, 99, 66, 84, 32]" ivs="[0,0,0,0,0,0]" level=49 nature="Bold" type="Ground/Steel"}
+     - 
+  :::::
+  :::::pokemon[Steelix]{baseStats="[75, 85, 200, 55, 65, 30]" ivs="[0,0,0,0,0,0]" level=49 nature="Calm" type="Steel/Ground"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Macro Cosmos’s Oleana]
+  :::::pokemon[Froslass]{baseStats="[70, 80, 70, 80, 70, 110]" ivs="[15,15,15,15,15,15]" level=50 nature="Timid" type="Ice/Ghost"}
+     - 
+  :::::
+  :::::pokemon[Milotic]{baseStats="[95, 60, 79, 100, 125, 81]" ivs="[15,15,15,15,15,15]" level=51 nature="Bold" type="Water"}
+     - 
+  :::::
+  :::::pokemon[Salazzle]{baseStats="[68, 64, 60, 111, 60, 117]" ivs="[15,15,15,15,15,15]" level=50 nature="Timid" type="Poison/Fire"}
+     - 
+  :::::
+  :::::pokemon[Tsareena]{baseStats="[72, 120, 98, 50, 98, 72]" ivs="[15,15,15,15,15,15]" level=50 nature="Jolly" type="Grass"}
+     - 
+  :::::
+  :::::pokemon[Garbodor]{baseStats="[80, 95, 82, 60, 82, 75]" ivs="[20,20,20,20,20,20]" level=52 nature="Adamant" type="Poison"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+
+**Mash A** to fast travel
+
+**Head inside** stadium
+
+:::::::trainer[Gym Leader Bede 4]
+  :::::pokemon[Mawile]{baseStats="[50, 85, 85, 55, 55, 50]" ivs="[15,15,15,15,15,15]" level=51 nature="Adamant" type="Steel/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Gardevoir]{baseStats="[68, 65, 65, 125, 115, 80]" ivs="[15,15,15,15,15,15]" level=51 nature="Timid" type="Psychic/Fairy"}
+     - 
+  :::::
+  :::::pokemon[Rapidash]{baseStats="[65, 100, 70, 80, 80, 105]" ivs="[15,15,15,15,15,15]" level=52 nature="Adamant" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Hatterene]{baseStats="[57, 90, 95, 136, 103, 29]" ivs="[15,15,15,15,15,15]" level=53 nature="Modest" type="Psychic/Fairy"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Gym Leader Nessa 2]
+  :::::pokemon[Golisopod]{baseStats="[75, 125, 140, 60, 90, 40]" ivs="[15,15,15,15,15,15]" level=51 nature="Jolly" type="Bug/Water"}
+     - 
+  :::::
+  :::::pokemon[Pelipper]{baseStats="[60, 50, 100, 95, 70, 65]" ivs="[15,15,15,15,15,15]" level=51 nature="Bold" type="Water/Flying"}
+     - 
+  :::::
+  :::::pokemon[Seaking]{baseStats="[80, 92, 65, 65, 80, 68]" ivs="[15,15,15,15,15,15]" level=52 nature="Timid" type="Water"}
+     - 
+  :::::
+  :::::pokemon[Barraskewda]{baseStats="[61, 123, 60, 60, 50, 136]" ivs="[15,15,15,15,15,15]" level=52 nature="Calm" type="Water"}
+     - 
+  :::::
+  :::::pokemon[Drednaw]{baseStats="[90, 115, 90, 48, 68, 74]" ivs="[20,20,20,20,20,20]" level=53 nature="Adamant" type="Water/Rock"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Gym Leader Bea 2]
+  :::::pokemon[Hawlucha]{baseStats="[78, 92, 75, 74, 63, 118]" ivs="[15,15,15,15,15,15]" level=52 nature="Adamant" type="Fighting/Flying"}
+     - 
+  :::::
+  :::::pokemon[Grapploct]{baseStats="[80, 118, 90, 70, 80, 42]" ivs="[15,15,15,15,15,15]" level=52 nature="Bold" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Sirfetch’d]{baseStats="[62, 135, 95, 68, 82, 65]" ivs="[15,15,15,15,15,15]" level=53 nature="Impish" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Falinks]{baseStats="[65, 100, 100, 70, 60, 75]" ivs="[15,15,15,15,15,15]" level=53 nature="Bold" type="Fighting"}
+     - 
+  :::::
+  :::::pokemon[Machamp]{baseStats="[90, 130, 80, 65, 85, 55]" ivs="[20,20,20,20,20,20]" level=54 nature="Careful" type="Fighting"}
+     - 
+  :::::
+:::::::
+
+:info[**Free heal**]{color=pink}
+
+:::::::trainer[Gym Leader Raihan 2]
+  :::::pokemon[Torkoal]{baseStats="[70, 85, 140, 85, 70, 20]" ivs="[15,15,15,15,15,15]" level=53 nature="Brave" type="Fire"}
+     - 
+  :::::
+  :::::pokemon[Turtonator]{baseStats="[60, 78, 135, 91, 85, 36]" ivs="[15,15,15,15,15,15]" level=54 nature="Quiet" type="Fire/Dragon"}
+     - 
+  :::::
+  :::::pokemon[Goodra]{baseStats="[90, 100, 70, 110, 150, 80]" ivs="[15,15,15,15,15,15]" level=54 nature="Quiet" type="Dragon"}
+     - 
+  :::::
+  :::::pokemon[Flygon]{baseStats="[80, 100, 80, 80, 80, 100]" ivs="[15,15,15,15,15,15]" level=54 nature="Jolly" type="Ground/Dragon"}
+     - 
+  :::::
+  :::::pokemon[Duraludon]{baseStats="[70, 95, 115, 120, 50, 85]" ivs="[20,20,20,20,20,20]" level=55 nature="Jolly" type="Steel/Dragon"}
+     - 
+  :::::
+:::::::
+
+**Run** into the **stadium** _(no need to save)_
+
+![Forest movement](image5.gif)
+
+
+**Talk to Hop**, your new Flying Taxi
+
+**Head** into the **stadium**
+
+**Select 2nd option** on Rose **(mash B)**
+
+:::::::trainer[Macro Cosmos’s Rose]
+  :::::pokemon[Escavalier]{baseStats="[70, 135, 105, 60, 105, 20]" ivs="[20,20,20,20,20,20]" level=55 nature="Brave" type="Bug/Steel"}
+     - 
+  :::::
+  :::::pokemon[Klinklang]{baseStats="[60, 100, 115, 70, 85, 90]" ivs="[20,20,20,20,20,20]" level=56 nature="Jolly" type="Steel"}
+     - 
+  :::::
+  :::::pokemon[Ferrothorn]{baseStats="[74, 94, 131, 54, 116, 20]" ivs="[20,20,20,20,20,20]" level=55 nature="Brave" type="Grass/Steel"}
+     - 
+  :::::
+  :::::pokemon[Perrserker]{baseStats="[70, 110, 100, 50, 60, 50]" ivs="[20,20,20,20,20,20]" level=55 nature="Brave" type="Steel"}
+     - 
+  :::::
+  :::::pokemon[Copperajah]{baseStats="[122, 130, 69, 80, 69, 30]" ivs="[20,20,20,20,20,20]" level=57 nature="Adamant" type="Steel"}
+     - 
+  :::::
+:::::::
+
+**Head down** and **talk to Hop**
+
+**Run up** the **stairs**
+
+_~1 minute cutscene_
+
+Eternatus:
+
+:info[**Free heal**]{color=pink}
+
+**Spam A**
+
+_~1:20 cutscene_
+
+Giga Eternatus:    
+
+Use **Flying Taxi** to the stadium **(X > + > right)**
+
+:info[DON’T WALK INTO THE POKÉMON CENTER]{color=yellow}
+
+Go **RIGHT** for the **stadium**
+
+:::::::trainer[Champion Leon]
+  :::::pokemon[Aegislash]{baseStats="[60, 50, 140, 50, 140, 60]" ivs="[20,20,20,20,20,20]" level=62 nature="Quiet" type="Steel/Ghost"}
+     - 
+  :::::
+  :::::pokemon[Haxorus]{baseStats="[76, 147, 90, 60, 70, 97]" ivs="[20,20,20,20,20,20]" level=63 nature="Jolly" type="Dragon"}
+     - 
+  :::::
+  :::::pokemon[Rhyperior]{baseStats="[115, 140, 130, 55, 55, 40]" ivs="[20,20,20,20,20,20]" level=64 nature="Adamant" type="Ground/Rock"}
+     - 
+  :::::
+  :::::pokemon[Dragapult]{baseStats="[88, 120, 75, 100, 75, 142]" ivs="[20,20,20,20,20,20]" level=62 nature="Modest" type="Dragon/Ghost"}
+     - 
+  :::::
+  :::::pokemon[Rillaboom]{baseStats="[100, 125, 90, 60, 70, 85]" ivs="[20,20,20,20,20,20]" level=64 nature="Adamant" type=""}
+     - 
+  :::::
+  :::::pokemon[Charizard]{baseStats="[78, 84, 78, 109, 85, 100]" ivs="[30,30,30,30,30,30]" level=65 nature="Timid" type="Fire/Flying"}
+     - 
   :::::
 :::::::
