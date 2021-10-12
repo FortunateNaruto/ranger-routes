@@ -47,7 +47,7 @@ Notes by Wartab, Eddaket, The4thGenGamer, Sinstar, Headbob, truely, Pokeguy [bas
 
   Minimum stats at Lv. 6:
   - Attack: **14** (_13 is runnable, but not ideal._)
-  - Defense: **10**
+  - Defense: **10*-*
   - Sp. Attack: **10**
   - Sp. Defense: **X** (_Any value is fine_)
   - Speed: **10** (_9 is fine if you have a -Speed nature._)
@@ -58,7 +58,7 @@ Notes by Wartab, Eddaket, The4thGenGamer, Sinstar, Headbob, truely, Pokeguy [bas
   :::if{source="Mudkip" condition="spatk=(x / x / 17+) && atk=(# / 9- / x)"}
     - Water Gun x2 :info[88.7% range]{color=red}
   :::
-  :::if{source="Mudkip" condition="spatk=~(x / x / 17+) && atk=~(# / 9- / x)"}  
+  :::if{source="Mudkip" condition="spatk=~(x / x / 17+) || atk=~(# / 9- / x)"}  
     - Tackle x2 :info[90.2% range at 14 or 15 Atk (# / 10+ / 0-26)]{color=red}
   ::: 
  ::::
